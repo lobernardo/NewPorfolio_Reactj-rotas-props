@@ -18,6 +18,7 @@
     bottom:0px;
     border-radius: 20px;
     background-color: rgba(61, 62, 65, 0.831);
+    filter: contrast(1.2);
 }
 
 .card{
@@ -45,12 +46,14 @@
     cursor: pointer;
     background-size: cover;
     background-repeat: no-repeat;
+    filter: contrast(1.2);
 }
 
 #foto-about img:hover{
     opacity: 0%;
     transition:1s;
     overflow: hidden;
+
 }
 
 .card p{

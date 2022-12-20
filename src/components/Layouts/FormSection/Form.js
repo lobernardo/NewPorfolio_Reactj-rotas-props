@@ -16,7 +16,7 @@ export default function Form() {
             
               <div className="form-group">
                 <label for="exampleFormControlTextarea1">Fale comigo!</label>
-                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escreva aqui sua mensagem"></textarea>
+                <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escreva aqui sua mensagem" mailto='leo.olivbernardo@gmail.com'></textarea>
               </div>
 
               <button type='submit' className='btn__form'>Enviar</button>

@@ -8,7 +8,9 @@
     background-color: rgb(9, 29, 81);
     border-radius: 20px;
     padding: 3rem;
-    color: rgb(250, 252, 255);
+    color: rgb(255, 255, 255);
+    background-image: url('../../assets/fundohome.jpg');
+    background-size: cover;
 }
 
 label{
@@ -28,7 +30,7 @@ label{
 }
 
 .form-control:hover{
-
+ 
     cursor:pointer;
 }
 
@@ -36,6 +38,8 @@ label{
     margin-top: 3rem;
     margin-bottom: 1rem;
     border-radius: 5px;
-    background-color: rgb(226, 227, 232);
-    color:rgb(9, 29, 81);
+    background-color: rgb(27, 46, 132);
+    color:rgb(227, 230, 233);
 }
+
+

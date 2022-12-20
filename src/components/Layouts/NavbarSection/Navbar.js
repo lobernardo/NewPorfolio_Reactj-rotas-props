@@ -13,7 +13,6 @@ function Navbar() {
         <li><Link className='link' to="/about">Sobre</Link></li>
         <li><Link className='link' to="/skill">Tecnologias</Link></li>
         <li><Link className='link' to="/project">Projetos</Link></li>
-        <li><Link className='link' to="/contact">Contato</Link></li>
       </ul>
       <div className='wpp'>
       <li><a href='https://wa.me/+5521991575613' target= '_blank'><FaWhatsappSquare alt="whatsapp" /></a></li>

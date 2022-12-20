@@ -9,6 +9,7 @@ body{
   background-color: rgba(144, 146, 148, 0.29);
 }
 
+
 .container__geral{
   max-width: 1200px;
   margin: 0 auto;
@@ -20,4 +21,89 @@ h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2.5rem;
   letter-spacing: 2px;
+}
+
+@media (max-width: 600px){
+  div {
+    
+}
+  #home-ft img{
+    width: 340px;
+    z-index: 1;
+    position: absolute;
+    top:22rem;
+    left: 6rem;
+  }
+
+  #texto-home{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #texto-home h1{
+    font-size: 3rem;
+    width: 100%;
+    position: absolute;
+    top:-9rem;
+  }
+
+  #texto-home h4{
+    font-size: 1.4rem;
+    
+  }
+
+  #texto-home h4 span{
+    font-size: 1.5rem;
+  }
+
+  .card{
+    width: 60%;
+    height: 60vh;
+    border: 3px solid rgba(225, 226, 227, 0.393);
+    border-radius: 15px;
+    box-shadow: 2px 5px 14px 4px rgba(39, 40, 41, 0.831);
+    background-color: rgba(61, 62, 65, 0.831);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+}
+
+  .button_home{
+    position: absolute;
+    top:-8rem;
+    left: 5rem;
+  }
+
+  .card__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  #foto-about img{
+    width: 320px;
+    height: 457px;
+    position: absolute;
+    right: -1px;
+  }
+
+  .container__geral{
+    height: 140vh;
+  }
+
+  #txt-about p{
+   font-size: 12px;
+   display: flex;
+   align-items: flex-start;
+   text-align: start;
+   justify-content: flex-start;
+   overflow-y: auto;
+  }
 }

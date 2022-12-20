@@ -22,7 +22,7 @@ function Skill() {
                 <img src={js}/>
                     <div className='txt-card'>
                         <h4>Javascript</h4>
-                        <button>Certificações</button>
+                        <button><a href='https://www.devmedia.com.br/certificado/tecnologia/javascript/leonardo-de-oliveira-bernardo' target='_blank'>Certificações</a></button>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@ function Skill() {
                 <img src={typescript}/>
                     <div className='txt-card'>
                         <h4>Typescript</h4>
-                        <button className='button__skills'>Certificações</button>
+                        <button><a href='https://www.devmedia.com.br/cursos/certificado/?id=149185' target='_blank'>Certificações</a></button>
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ function Skill() {
                 <img src={react}/>
                     <div className='txt-card'>
                         <h4>React JS</h4>
-                        <button>Certificações</button>
+                        <button><a href='https://www.devmedia.com.br/certificado/tecnologia/react/leonardo-de-oliveira-bernardo' target='_blank'>Certificações</a></button>
                     </div>
                 </div>
 
@@ -46,7 +46,7 @@ function Skill() {
                 <img src={csslogo}/>
                     <div className='txt-card'>
                         <h4>CSS</h4>
-                        <button>Certificações</button>
+                        <button><a href='https://www.devmedia.com.br/certificado/tecnologia/css/leonardo-de-oliveira-bernardo' target='_blank'>Certificações</a></button>
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@ function Skill() {
                 <img src={html}/>
                     <div className='txt-card'>
                         <h4>HTML</h4>
-                        <button>Certificações</button>
+                        <button><a href='https://www.devmedia.com.br/certificado/tecnologia/html/leonardo-de-oliveira-bernardo' target='_blank'>Certificações</a></button>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ function Skill() {
                 <img src={angular}/>
                     <div className='txt-card'>
                         <h4>Angular</h4>
-                        <button>Certificações</button>
+                        <button><a href='https://hermes.digitalinnovation.one/certificates/D3F3549C.pdf' target='_blank'>Certificações</a></button>
                     </div>
                 </div>
 
@@ -70,7 +70,7 @@ function Skill() {
                 <img src={nodejs}/>
                     <div className='txt-card'>
                         <h4>Node JS</h4>
-                        <button>Certificações</button>
+                        <button><a href='https://www.devmedia.com.br/certificado/tecnologia/node-js/leonardo-de-oliveira-bernardo' target='_blank'>Certificações</a></button>
                     </div>
                 </div>
 

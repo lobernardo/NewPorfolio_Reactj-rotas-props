@@ -56,3 +56,8 @@
 .txt-card h4 {
     margin-bottom:1rem;
 }
+
+.card-skills a{
+    color:white;
+    text-decoration: none;
+}
