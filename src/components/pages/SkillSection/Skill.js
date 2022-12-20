@@ -16,7 +16,7 @@ function Skill() {
         <div className='container__skill'>
             <h1>Tecnologias e conhecimentos</h1>
 
-            <div className='box__skills'>
+            <div className='box__skills' id='cont__skill'>
 
                 <div className='card-skills'>
                 <img src={js}/>
