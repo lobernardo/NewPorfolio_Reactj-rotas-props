@@ -1,0 +1,80 @@
+.project__section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top:4rem;
+    position: relative;
+   
+}
+
+.project__section h1{
+    position: absolute;
+    left: 270px;
+    top: -30px;
+    
+}
+
+.container__project{
+    margin-top: 4rem;
+    width:80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+.card__projects{
+    width: 40%;
+    height: 220px;
+    border: 3px solid rgba(225, 226, 227, 0.393);
+    border-radius: 15px;
+    box-shadow: 2px 5px 14px 4px rgba(39, 40, 41, 0.831);
+    background-color: rgba(158, 159, 159, 0.831);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin:2rem;
+    list-style: none;
+    padding:5px;
+}
+
+.card__projects p{
+    margin-bottom: 1rem;
+}
+
+.button__pjt button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(9, 29, 81);
+    color: rgb(223, 225, 228);
+}
+
+.button__pjt a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.card__projects:hover{
+     transition: 0.7s;
+    background-color: rgb(46, 116, 191);
+    cursor: pointer;
+}
+
+.card__projects h3{
+    color:rgb(0, 22, 56);
+}
+
+.card__projects p{
+    color:rgb(223, 225, 228);
+}

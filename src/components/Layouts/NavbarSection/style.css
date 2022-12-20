@@ -1,0 +1,67 @@
+
+.menu{
+    width: 100%;
+    margin:0 auto;
+    background-color: rgb(6, 17, 56);
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20rem;
+  
+}
+
+
+.nav li{
+    margin-left: 3rem;
+    list-style: none;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+    color:rgb(204, 211, 204)
+}
+
+.link:hover{
+    transition: 0.3s;
+    color:rgb(46, 116, 191);
+    text-decoration: none;
+}
+
+.menu img{
+    width: 120px;
+    position: absolute;
+    left: 7rem;
+    margin-top: 2.8rem;
+    margin-left:3rem ;
+}
+
+.wpp{
+    position: absolute;
+    right: 215px;
+    top:5px;
+    font-size: 44px;
+
+}
+
+.wpp li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.wpp a{
+    text-decoration: none;
+    color: rgb(16, 255, 20);
+}

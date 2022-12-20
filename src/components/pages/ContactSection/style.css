@@ -1,0 +1,21 @@
+.container__ctt{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:4rem;
+    position: relative;
+}
+
+.container__ctt h1{
+    position: absolute;
+    left: 270px;
+    top: -30px;
+}
+
+.forms__container{
+    
+}

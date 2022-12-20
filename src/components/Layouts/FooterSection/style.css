@@ -1,0 +1,54 @@
+#secaoFooter, footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    background-color: rgb(6, 17, 56);
+    margin-top: 150px;
+  }
+  
+  
+  .paragrafo {
+    padding: 0px 20px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #e2dcdc;
+    max-width: 600px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom:20px;
+  }
+  
+  .iconesRodape {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+    font-size: 30px;
+    max-width: 375px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+  
+
+
+.iconesRodape a{
+  color: rgb(195, 197, 201);
+  cursor: pointer;
+}
+  
+  .copyright {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #dadce1;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  
+  .copyright span {
+    color: #dadce1;
+    font-weight: bold;
+  }

@@ -1,0 +1,58 @@
+.container__skill{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:4rem;
+    position: relative;
+}
+
+.container__skill h1{
+    position: absolute;
+    left: 270px;
+    top: -30px;
+}
+
+
+.box__skills{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top:4rem;
+        width: 100%;
+        justify-content: center;
+        
+}
+
+.card-skills img{
+    width: 120px;
+}
+
+.card-skills{
+    border:2px solid rgb(143, 140, 140);
+    background-color: rgba(65, 65, 61, 0.831);
+    width: 15%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1.5rem;
+    border-radius: 15px;
+    
+}
+
+.card-skills:hover{
+    transition: 0.3s;
+    background-color: rgb(46, 116, 191);
+    cursor: pointer;
+}
+
+.txt-card h4 {
+    margin-bottom:1rem;
+}
