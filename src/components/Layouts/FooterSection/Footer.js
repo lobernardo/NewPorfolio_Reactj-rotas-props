@@ -13,8 +13,8 @@ export default function Footer() {
   return(
     <section>
     <footer>
-     
-      <p className="paragrafo">
+    
+      <p className="paragrafo" id='parag'>
         Disposto e ansioso para colaborar com sua empresa.
       </p>
       <div className="iconesRodape">
@@ -26,6 +26,7 @@ export default function Footer() {
       <div>
         <p className="copyright">Feito em 2022 &copy; <span>Leonardo de Oliveira Bernardo</span></p>
       </div>
+
     </footer>
     </section>
   )

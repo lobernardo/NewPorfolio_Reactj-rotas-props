@@ -5,7 +5,7 @@ function About() {
     return(
         <div className="container__geral">
             <h1>Sobre</h1>
-
+        
             <div className='card__container'>
 
                 <div className="card" id='foto-about'>
