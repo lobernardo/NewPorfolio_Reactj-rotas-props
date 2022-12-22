@@ -7,7 +7,7 @@ import Project from './components/pages/ProjectSection/Project'
 import Navbar from './components/Layouts//NavbarSection/Navbar'
 import Footer from './components/Layouts/FooterSection/Footer'
 
-
+import Container from './components/Layouts/ContainerSection/Container'
 
 
 import './App.css';
@@ -16,6 +16,8 @@ function App() {
   return (
     <Router>
       <Navbar />
+      
+        <Container customClass="minHeight">
 
           <Routes>
             <Route exact path='/' element={<Home />}>
@@ -29,9 +31,9 @@ function App() {
 
             <Route path='/project' element={<Project />}>
             </Route>
-
-
           </Routes>
+
+        </Container>
 
 
       <Footer />
