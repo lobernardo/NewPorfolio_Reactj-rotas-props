@@ -46,10 +46,14 @@
 }
 
 
-.card_u p{
+.card_u_txt p{
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 16px;
     
+}
+
+.card_u_txt p span{
+    font-weight: bold;
 }
 
 .card_t{
