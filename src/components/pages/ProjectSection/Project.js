@@ -1,4 +1,5 @@
 
+import styles from './Project.module.css'
 
 import './style.css'
 import CardGit from '../CardGit/CardGit';
@@ -8,13 +9,13 @@ function Project() {
 
 
     return(
-        <div className='project__section'>
-            <h1>Projetos</h1>
+        <section className={styles.project__section}>
+            <h3>Projetos</h3>
 
                     <CardGit />
 
                    
-        </div>
+        </section>
     )
 }
 

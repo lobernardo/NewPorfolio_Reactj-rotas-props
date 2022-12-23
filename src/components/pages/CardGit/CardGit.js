@@ -1,4 +1,5 @@
-import './style.css';
+
+import styles from './Cardgit.module.css'
 import {useEffect, useState} from 'react';
 
 export default function CardGit(props) {
@@ -15,22 +16,22 @@ export default function CardGit(props) {
   return(
 
 
-                    <div className='container__project'>
+                    <div className={styles.container__project}>
                         
-                    <div className='card__container'>
+                    <div className={styles.card__container}>
                         { repositories.map(repository => {
                             return(
                                 
-                                <div key={repository.id} className='card__projects'>
+                                <div key={repository.id} className={styles.card__projects}>
 
                                
-                                    <h3>{repository.name}</h3>
+                                    <h4>{repository.name}</h4>
                                     
                                     <p>{repository.description}</p>
-                                    <button className='button__pjt'><a href= {repository.html_url} target='_blank'>Veja mais</a></button>
+                                    
+                                    <button className={styles.buttonSec_git}><a href= {repository.html_url} target='_blank'>Veja mais</a></button>
                                  
-                               
-                                
+                                                      
                                 </div>
                             )
                         })}

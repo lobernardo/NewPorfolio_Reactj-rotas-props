@@ -42,6 +42,21 @@
 }
 
 .img_container img{
-    border-radius: 60px;
+    border-radius: 200px;
     filter: contrast(1.2);
+}
+
+.buttonSec{
+    background-color: rgb(75, 74, 74) ;
+    color: rgb(246, 247, 252);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.buttonSec:hover{
+    color:rgb(142, 143, 146);
+    text-decoration: none;
+    background-color: rgb(25, 62, 163);
 }
