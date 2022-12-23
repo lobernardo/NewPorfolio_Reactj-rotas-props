@@ -43,7 +43,8 @@
 
 .img_container img{
     border-radius: 200px;
-    filter: contrast(1.2);
+    filter: contrast(1.1);
+    background-color: #222;
 }
 
 .buttonSec{
