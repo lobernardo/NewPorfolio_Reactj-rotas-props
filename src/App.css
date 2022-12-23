@@ -23,3 +23,10 @@ h1{
   letter-spacing: 2px;
 }
 
+h3{
+  font-size: 32px;
+  letter-spacing: 2px;
+  background-color: #222;
+  color:rgb(34, 105, 205);
+  padding-left: 2rem;
+}
