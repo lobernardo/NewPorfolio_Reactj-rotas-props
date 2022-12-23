@@ -65,11 +65,7 @@
     font-weight: bold;
 }
 
-.card__projects:hover{
-     transition: 0.7s;
-    background-color: rgb(46, 116, 191);
-    cursor: pointer;
-}
+
 
 .card__projects h3{
     color:rgb(0, 22, 56);

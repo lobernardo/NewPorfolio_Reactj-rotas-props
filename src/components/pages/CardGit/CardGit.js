@@ -17,7 +17,7 @@ export default function CardGit(props) {
 
                     <div className='container__project'>
                         
-                    <div className='cont__card'>
+                    <div className='card__container'>
                         { repositories.map(repository => {
                             return(
                                 
