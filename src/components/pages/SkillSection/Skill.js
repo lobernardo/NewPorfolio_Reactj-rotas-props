@@ -10,6 +10,8 @@ import html from '../../assets/html.png'
 import nodejs from '../../assets/nodejs.png'
 import angular from '../../assets/angular.png'
 import git from '../../assets/git.png'
+import java from '../../assets/java.png'
+
 
 
 
@@ -85,6 +87,17 @@ function Skill() {
                     <a className={styles.buttonSec} href="https://www.devmedia.com.br/certificado/tecnologia/node-js/leonardo-de-oliveira-bernardo"  
                     target="_blank">Certificações</a>
                 </div>
+
+
+                <div className={styles.card_skills}>
+                <img src={java}/>
+                    <div className={styles.txt_card}>
+                        <h4>Java</h4>
+                    </div>
+                    <a className={styles.buttonSec} href="https://www.devmedia.com.br/certificado/tecnologia/java/leonardo-de-oliveira-bernardo"  
+                    target="_blank">Certificações</a>
+                </div>
+
 
                 <div className={styles.card_skills}>
                 <img src={git}/>
