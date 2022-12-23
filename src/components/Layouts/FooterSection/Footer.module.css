@@ -1,7 +1,7 @@
 .footer{
     background-color: #222 ;
     color:white;
-    padding: 3rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .social_list li{
-    margin: 0 1rem;
+    margin:1rem;
   
 }
 
@@ -29,7 +29,7 @@
 }
 
 .copy{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
 

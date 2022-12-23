@@ -1,4 +1,6 @@
-import './style.css'
+
+import styles from './Skill.module.css'
+import LinkButton from '../../Layouts/ButtonSection/LinkButton'
 
 import js from '../../assets/js.png'
 import typescript from '../../assets/typescript.png'
@@ -13,70 +15,92 @@ import git from '../../assets/git.png'
 
 function Skill() {
     return(
-        <div className='container__skill'>
-            <h1>Tecnologias e conhecimentos</h1>
+        <section className={styles.container__skill}>
+            <h3>Tecnologias e conhecimentos</h3>
 
-            <div className='box__skills' id='cont__skill'>
+            <div className={styles.box__skills}>
 
-                <div className='card-skills'>
+                <div className={styles.card_skills}>
                 <img src={js}/>
-                    <div className='txt-card'>
+                    <div className={styles.txt_card}>
                         <h4>Javascript</h4>
-                        <button><a href='https://www.devmedia.com.br/certificado/tecnologia/javascript/leonardo-de-oliveira-bernardo' target='_blank'>Certificações</a></button>
                     </div>
+                    <LinkButton 
+                    to="https://www.devmedia.com.br/certificado/tecnologia/javascript/leonardo-de-oliveira-bernardo' target='_blank'>"
+                    text="Certificações" 
+                    />
+                   
                 </div>
 
-                <div className='card-skills'>
+                <div className={styles.card_skills}>
                 <img src={typescript}/>
-                    <div className='txt-card'>
+                    <div className={styles.txt_card}>
                         <h4>Typescript</h4>
-                        <button><a href='https://www.devmedia.com.br/cursos/certificado/?id=149185' target='_blank'>Certificações</a></button>
                     </div>
+                    <LinkButton className={styles.btn_tech}
+                    to="https://www.devmedia.com.br/cursos/certificado/?id=149185' target='_blank'>"
+                    text="Certificações" 
+                    />
                 </div>
 
-                <div className='card-skills'>
+                <div className={styles.card_skills}>
                 <img src={react}/>
-                    <div className='txt-card'>
+                    <div className={styles.txt_card}>
                         <h4>React JS</h4>
-                        <button><a href='https://www.devmedia.com.br/certificado/tecnologia/react/leonardo-de-oliveira-bernardo' target='_blank'>Certificações</a></button>
                     </div>
+                    <LinkButton 
+                    to="https://www.devmedia.com.br/certificado/tecnologia/react/leonardo-de-oliveira-bernardo' target='_blank'>"
+                    text="Certificações" 
+                    />
                 </div>
 
-                <div className='card-skills'>
+                <div className={styles.card_skills}>
                 <img src={csslogo}/>
-                    <div className='txt-card'>
+                    <div className={styles.txt_card}>
                         <h4>CSS</h4>
-                        <button><a href='https://www.devmedia.com.br/certificado/tecnologia/css/leonardo-de-oliveira-bernardo' target='_blank'>Certificações</a></button>
                     </div>
+                    <LinkButton 
+                    to="https://www.devmedia.com.br/certificado/tecnologia/css/leonardo-de-oliveira-bernardo' target='_blank'>"
+                    text="Certificações" 
+                    />
                 </div>
 
-                <div className='card-skills'>
+                <div className={styles.card_skills}>
                 <img src={html}/>
-                    <div className='txt-card'>
+                    <div className={styles.txt_card}>
                         <h4>HTML</h4>
-                        <button><a href='https://www.devmedia.com.br/certificado/tecnologia/html/leonardo-de-oliveira-bernardo' target='_blank'>Certificações</a></button>
                     </div>
+                    <LinkButton 
+                    to="https://www.devmedia.com.br/certificado/tecnologia/html/leonardo-de-oliveira-bernardo' target='_blank'>"
+                    text="Certificações" 
+                    />
                 </div>
 
-                <div className='card-skills'>
+                <div className={styles.card_skills}>
                 <img src={angular}/>
-                    <div className='txt-card'>
+                    <div className={styles.txt_card}>
                         <h4>Angular</h4>
-                        <button><a href='https://hermes.digitalinnovation.one/certificates/D3F3549C.pdf' target='_blank'>Certificações</a></button>
                     </div>
+                    <LinkButton 
+                    to="https://hermes.digitalinnovation.one/certificates/D3F3549C.pdf' target='_blank'>"
+                    text="Certificações" 
+                    />
                 </div>
 
-                <div className='card-skills'>
+                <div className={styles.card_skills}>
                 <img src={nodejs}/>
-                    <div className='txt-card'>
+                    <div className={styles.txt_card}>
                         <h4>Node JS</h4>
-                        <button><a href='https://www.devmedia.com.br/certificado/tecnologia/node-js/leonardo-de-oliveira-bernardo' target='_blank'>Certificações</a></button>
                     </div>
+                    <LinkButton 
+                    to="https://www.devmedia.com.br/certificado/tecnologia/node-js/leonardo-de-oliveira-bernardo' target='_blank'>"
+                    text="Certificações" 
+                    />
                 </div>
 
-                <div className='card-skills'>
+                <div className={styles.card_skills}>
                 <img src={git}/>
-                    <div className='txt-card'>
+                    <div className={styles.txt_card}>
                         <h4>Git e Github</h4>
                       
                     </div>
@@ -85,7 +109,7 @@ function Skill() {
 
 
             </div>
-        </div>
+        </section>
     )
 }
 

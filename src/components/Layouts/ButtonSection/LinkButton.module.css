@@ -8,6 +8,7 @@
 }
 
 .buttonSec:hover{
-    color:rgb(88, 136, 232);
+    color:rgb(142, 143, 146);
     text-decoration: none;
+    background-color: rgb(25, 62, 163);
 }

@@ -43,4 +43,5 @@
 
 .img_container img{
     border-radius: 60px;
+    filter: contrast(1.2);
 }

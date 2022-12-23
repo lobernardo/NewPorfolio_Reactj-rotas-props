@@ -18,26 +18,43 @@
 
 .card_u{
     margin-right: 2rem;
+    text-align: center;
+    background-image: url('../../assets/homeh2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0px 10px 18px 0px #0b0b0b8d;
 }
-
 
 
 .card_u img{
     width: 460px;
     height: 500px;
     border-radius: 20px;
-    background-color: rgba(61, 62, 65, 0.831);
     filter: contrast(1.2);
 }
 
 .card_u img:hover{
-    opacity: 70%;
     cursor: pointer;
+    transition: 0.9s;
+    opacity: 0%;
+    background-image: url('../../assets/homeh2.png');
+    filter: contrast(1.2);
+    border-radius: 20px;
 }
+
 
 .card_u p{
     letter-spacing: 1px;
     font-size: 18px;
+    
 }
 
-
+.card_t{
+    background-color: rgba(112, 111, 111, 0.145);
+    padding: 1rem;
+    border-radius: 15px;
+    margin-right: 2rem;
+    text-align: center;
+    box-shadow: 0px 5px 18px 0px #0b0b0b8d;
+}
