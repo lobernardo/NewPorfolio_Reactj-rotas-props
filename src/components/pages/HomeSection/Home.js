@@ -1,34 +1,38 @@
-import ButtonSec from '../../Layouts/ButtonSection/ButtonSec'
-import './style.css'
-import leoperfilhome from '../../assets/leoperfilhome.png'
-import React from 'react';
+import LinkButton from '../../Layouts/ButtonSection/LinkButton'
 
+import leoperfilhome from '../../assets/leoperfilhome.png'
+
+
+
+import styles from './Home.module.css'
 
 
 
 
 function Home() {
     return(
-        <div className='container__geral' id='home'>
+        <section className={styles.home__section} id='home'>
+        
 
-            <div className='home__content'>
-
-                <div className='img__content' id='home-ft'>
-                <img src={leoperfilhome}/>
-                </div>
-
-                <div className='home__txt' id='texto-home'>
+            <div className={styles.text_container} >
                     <h1>Olá, sou o Leonardo</h1>
                     <h4 className='txt-home'>Desenvolvedor <span>Front-End</span></h4>
+                    <LinkButton 
+                    to="/contact"
+                    text="Download CV" 
+                    />
+            </div>
 
-                </div>
+            <div className={styles.img_container} >
+                    <img src={leoperfilhome}/>
                 
-                <div className='button_home'><ButtonSec /></div>
 
             </div>
-         
 
-        </div>
+
+        
+         
+        </section>
     )
 }
 

@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 0.2rem;
+}
+
+.logo_leo{
+    width: 85px;
+
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+
+.item{
+    margin-right: 2rem;
+
+}
+
+.item a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.item a:hover{
+    color: rgb(43, 65, 204);
+}
+
+.wpp{
+    margin-top: 0.9rem;
+}
+.wpp a{
+    font-size: 40px;
+    color:rgb(10, 185, 10);
+    
+}
