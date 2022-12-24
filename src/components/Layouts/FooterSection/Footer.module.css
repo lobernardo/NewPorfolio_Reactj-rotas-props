@@ -55,3 +55,16 @@ footer p a{
 footer p a:hover{
     color: blue;
 }
+
+@media screen and (max-width: 600px) {
+
+    .social_list li svg{
+        font-size: 1.4rem;
+        cursor: pointer;
+        color:white;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+}

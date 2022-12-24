@@ -75,3 +75,50 @@
     color:rgb(207, 208, 211);
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+
+  .card__projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: rgba(233, 233, 223, 0.778);
+    margin-top: 2rem;
+    padding-top: 1rem;
+    position: relative;
+  }
+
+  .buttonSec_git{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(75, 74, 74) ;
+    color: rgb(246, 247, 252);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top:10.5rem;
+    right:5.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.buttonSec_git:hover{
+    color:rgb(142, 143, 146);
+    text-decoration: none;
+    background-color: rgb(25, 62, 163);
+    cursor: pointer;
+}
+
+.buttonSec_git a{
+    text-decoration: none;
+    border: none;
+    color:rgb(207, 208, 211);
+    cursor: pointer;
+}
+
+}

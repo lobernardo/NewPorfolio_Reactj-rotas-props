@@ -9,3 +9,19 @@
 .minHeight{
     min-height: 75vh;
 }
+
+@media screen and (max-width: 600px){
+
+    .container_container{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;  
+        margin: 0 auto;
+    }
+    
+    .minHeight{
+        min-height: 75vh;
+    }
+
+}
