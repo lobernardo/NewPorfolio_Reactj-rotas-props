@@ -75,3 +75,19 @@ footer p a:hover{
             width: 520px;
         }
     }
+
+
+    @media screen and (max-width: 1024px){
+        .footer {
+            width:1160px;
+        }
+        .social_list li svg{
+            font-size: 2.7rem;
+            cursor: pointer;
+            color:white;
+        }
+
+        footer p{
+            font-size: 1.3rem;
+        }
+    }
