@@ -6,3 +6,12 @@
     padding: 4rem;
 }
 
+
+@media screen and (max-width: 480px) {
+   
+    .project__section h3{
+        font-size: 22px;
+    }
+    
+
+}

@@ -134,3 +134,13 @@
     }
 
 }
+
+@media screen and (max-width: 480px) {
+   
+    .txt_card h4{
+        color:rgb(38, 39, 40);
+        font-size: 12px;
+    }
+    
+
+}

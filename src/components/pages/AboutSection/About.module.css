@@ -139,3 +139,10 @@
     }
 
 }
+
+@media screen and (max-width: 480px) {
+    .about__container h3{
+        font-size: 22px;
+        
+    }
+}
