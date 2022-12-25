@@ -20,14 +20,16 @@
 
     .project__section h3 {
         font-size: 19px;
-        width: 300px;
+        display: flex;
+        justify-content: center;
+        padding-right: 2rem;
     }
 
     .project__section{
-        width: 335px;
+        width: 320px;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding: 4rem;
+        padding: 2rem;
     }
 }

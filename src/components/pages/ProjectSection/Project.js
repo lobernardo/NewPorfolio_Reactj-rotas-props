@@ -1,7 +1,7 @@
 
 import styles from './Project.module.css'
 
-import './style.css'
+
 import CardGit from '../CardGit/CardGit';
 
 function Project() {

@@ -147,6 +147,7 @@
 @media screen and (max-width: 320px){
     .container__skill{
         width: 320px;
+        padding: 2rem;
     }
 
     .container__skill h3{
@@ -157,6 +158,6 @@
     }
 
     .card_skills{
-        width: 100px;
+        width: 150px;
     }
 }
