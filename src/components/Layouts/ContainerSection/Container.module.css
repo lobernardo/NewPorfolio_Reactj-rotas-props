@@ -26,21 +26,3 @@
 
 }
 
-
-@media screen and (max-width: 1024px){
-
-    .container_container{
-        width: 1024px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;  
-        margin: 0 auto;
-    }
-    
-    .minHeight{
-        min-height: 75vh;
-    }
-
-}
-

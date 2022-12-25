@@ -144,33 +144,55 @@
     }
 }
 
+@media screen and (max-width: 320px){
 
-@media screen and (max-width: 1024px){
     .navbar {
-        width: 1160px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 1rem;
+    height: 15vh;
+    }
+
+    .logo_leo{
+        width: 0px;
+        margin-right: 0rem;
+        overflow: hidden;
+    }
+
+    .list{
         display: flex;
-        justify-content: space-between;
-        background-color: #222;
-        padding: 1rem;
-       
-        }
-
-        .logo_leo{
-            width: 85px;
-            margin-right: 2rem;
-        }
-
-        .wpp a{
-            font-size: 45px;
-            color:rgb(10, 185, 10);
-        }
-
-        .item a{
-            color: white;
-            text-decoration: none;
-            font-size: 1.7rem;
-            margin-left: 0.1rem;
-            
-        }
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .item{
+        margin-right: 1rem;
+    }
+    
+    .item a{
+        color: white;
+        text-decoration: none;
+        font-size: 0.7rem;
+        margin-left: 0.1rem;
+        list-style: none;
+    }
+    
+    .item a:hover{
+        color: rgb(43, 65, 204);
+    }
+    
+    .wpp{
+        margin-top: 1rem;
+        list-style: none;
+    }
+    .wpp a{
+        font-size: 25px;
+        color:rgb(10, 185, 10);
+        list-style: none;
+        margin-right: 1rem;
+    }
 }
-
