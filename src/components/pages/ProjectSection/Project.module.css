@@ -32,3 +32,17 @@
       
     }
 }
+
+@media screen and (min-width: 1920px) {
+    .project__section h3{
+        width: 60%;
+        font-size: 1.7rem;
+        margin-left: 18rem;
+        margin-top: 1.7rem;
+      
+    }
+
+    .project__section{
+        height: 75vh;
+    }
+}

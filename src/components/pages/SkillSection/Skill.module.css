@@ -197,3 +197,57 @@
         text-align: center;
     }
 }
+
+@media screen and (min-width: 1920px){
+
+    .container__skill{
+        height: 75vh;
+    }
+    .container__skill h3{
+        width: 60%;
+        margin-top: 1.7rem;
+        font-size: 1.7rem;
+    }
+
+    .box__skills{
+        width: 70%;
+        
+    }
+
+    .card_skills{
+        width: 300px;
+    }
+
+    .card_skills img{
+        width: 90px;
+        border-radius: 25px;
+        padding: 0.5rem;
+    }
+    
+    .txt_card h4{
+        color:rgb(38, 39, 40);
+        font-size: 1.3rem;
+    }
+    
+    .buttonSec{
+        background-color: rgb(75, 74, 74) ;
+        color: rgb(246, 247, 252);
+        padding: 0.3rem;
+        text-decoration: none;
+        transition: 0.5s;
+        border-radius: 20px;
+        width: 110px;
+        margin-bottom: 0.7rem;
+    }
+    
+    .buttonSec:hover{
+        color:rgb(142, 143, 146);
+        text-decoration: none;
+        background-color: rgb(25, 62, 163);
+    }
+    
+     a{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}

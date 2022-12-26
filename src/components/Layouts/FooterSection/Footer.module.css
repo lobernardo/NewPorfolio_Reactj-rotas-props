@@ -78,3 +78,24 @@ footer p a:hover{
 
     
 }
+
+@media screen and (min-width: 1024px){
+    footer p{
+        font-size: 2rem;
+        margin-right: 2rem;
+    }
+
+    footer p a{
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+    .social_list{
+        margin-right: 2rem;
+    }
+
+    .social_list li svg{
+        font-size: 2.4rem;
+        cursor: pointer;
+        color:white;
+    }
+}
