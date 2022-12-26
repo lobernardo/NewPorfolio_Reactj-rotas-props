@@ -11,10 +11,12 @@ function Navbar() {
 
             <Container>
 
-                 <Link to='/'><img className={styles.logo_leo} src={logoleo}/></Link>
+                 
                   
                   
                 <ul className={styles.list}>
+                  
+                <Link to='/'><img className={styles.logo_leo} src={logoleo}/></Link>
 
                   <li className={styles.item}><Link to='/'>Home</Link></li>
                  
@@ -24,11 +26,13 @@ function Navbar() {
                
                   <li className={styles.item}><Link to='/project'>Projetos</Link></li>
 
-                </ul>
-                
-                <div className={styles.wpp}>
+                  <div className={styles.wpp}>
                   <li><a href='https://wa.me/+5521991575613' target= '_blank'><FaWhatsappSquare alt="whatsapp" /></a></li>
                 </div>
+
+                </ul>
+                
+               
 
             </Container>
 

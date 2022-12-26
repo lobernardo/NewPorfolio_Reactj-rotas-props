@@ -18,7 +18,7 @@ import java from '../../assets/java.png'
 function Skill() {
     return(
         <section className={styles.container__skill}>
-            <h3>Tecnologias e conhecimentos</h3>
+            <h3>Conhecimentos</h3>
 
             <div className={styles.box__skills}>
 
