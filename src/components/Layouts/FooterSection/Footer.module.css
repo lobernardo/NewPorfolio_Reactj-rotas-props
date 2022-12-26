@@ -42,6 +42,7 @@
     font-weight: bold;
     color: rgb(207, 208, 215);
     margin-right: 0.5rem;
+    
 }
 
 footer p{
@@ -52,10 +53,13 @@ footer p{
 
 footer p a{
     cursor: pointer;
+    font-size: 0.8rem;
+
 }
 
 footer p a:hover{
     color: blue;
+
 }
 
 @media screen and (min-width: 768px){
