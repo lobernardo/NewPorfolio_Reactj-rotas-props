@@ -164,12 +164,13 @@
     }
 
 }
-@media screen and (max-width: 480px){
+@media screen and (min-width: 480px){
     
     .home__section{
-        width: 480px;
+        width: 100%;
       position: relative;
       height: 100vh;
+      margin-top: 2rem;
     }
  
     .text_container{
@@ -177,10 +178,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 480px;
+        width: 90%;
         position: absolute;
         top:3rem;
-        left: -2.2rem;
+        left: 0rem;
     }
 
     .img_container img{
@@ -189,8 +190,8 @@
         filter: contrast(1.1);
         background-color: #222;
         position: absolute;
-        left: 5.8rem;
-        top:16rem;
+        left: 7.6rem;
+        top:18rem;
     }
 
     .text_container h1{

@@ -140,9 +140,9 @@
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     .about__container{
-        width: 450px;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
