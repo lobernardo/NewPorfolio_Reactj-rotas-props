@@ -147,7 +147,7 @@
 @media screen and (max-width: 320px){
 
     .navbar {
-    width: 320px;
+    width: 480px;
     display: flex;
     justify-content: center;
     background-color: #222;
@@ -156,9 +156,9 @@
     }
 
     .logo_leo{
-        width: 0px;
+        width: 80px;
         margin-right: 0rem;
-        overflow: hidden;
+        
     }
 
     .list{
@@ -176,7 +176,7 @@
     .item a{
         color: white;
         text-decoration: none;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         margin-left: 0.1rem;
         list-style: none;
     }
@@ -190,7 +190,7 @@
         list-style: none;
     }
     .wpp a{
-        font-size: 25px;
+        font-size: 35px;
         color:rgb(10, 185, 10);
         list-style: none;
         margin-right: 1rem;

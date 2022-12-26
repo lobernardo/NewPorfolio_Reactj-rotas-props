@@ -127,11 +127,11 @@
 @media screen and (max-width: 320px){
 
   .card__container{
-    width: 290px;
+    width: 400px;
   }
 
   .card__projects{
-    width: 250px;
+    width: 300px;
     position: relative;
   }
 
@@ -140,8 +140,12 @@
   }
 
   .buttonSec_git{
-    margin-left: 2rem;
+    margin-left: 3.8rem;
     position: absolute;
     left: 2rem;
   }
+}
+
+@media screen and (max-width: 480px){
+ 
 }
