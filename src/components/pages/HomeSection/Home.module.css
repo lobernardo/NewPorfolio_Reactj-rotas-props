@@ -50,6 +50,7 @@
     background-color: #222;
 }
 
+
 .buttonSec{
     background-color: rgb(75, 74, 74) ;
     color: rgb(246, 247, 252);
@@ -58,6 +59,8 @@
     transition: 0.5s;
     border-radius: 20px;
     width: 140px;
+    text-align: center;
+    
 }
 
 .buttonSec:hover{
