@@ -137,35 +137,50 @@
 
 @media screen and (max-width: 480px) {
    
-    .txt_card h4{
-        color:rgb(38, 39, 40);
-        font-size: 12px;
+    .container__skill{
+        width: 450px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        margin-bottom: 2rem;
     }
 
     .container__skill h3{
-        margin-top: 1rem;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        padding-right: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .txt_card h4{
+        font-size: 10px;
     }
     
 }
 
 @media screen and (max-width: 320px){
     .container__skill{
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 2rem;
         margin-right: 1rem;
-        height: 103vh;
+        width: 320px;
+        height: 100vh;
     }
 
     .container__skill h3{
-        font-size: 14px;
+        font-size: 12px;
         display: flex;
         justify-content:center ;
         align-items: center;
         text-align: center;
-        padding-right: 1.2rem;
-        margin-bottom: 5rem;
+        padding: 1.2rem;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
         
     }
 

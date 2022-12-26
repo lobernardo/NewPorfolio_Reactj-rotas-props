@@ -163,27 +163,31 @@
 }
 @media screen and (max-width: 480px){
     
-    
- 
-    }
-
-@media screen and (max-width: 320px) {
-    
-
     .home__section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
+        width: 480px;
+      position: relative;
+      height: 100vh;
     }
-
+ 
     .text_container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 440px;
+        width: 480px;
+        position: absolute;
+        top:3rem;
+        left: -2.2rem;
+    }
+
+    .img_container img{
+        width: 260px;
+        border-radius: 200px;
+        filter: contrast(1.1);
+        background-color: #222;
+        position: absolute;
+        left: 5.8rem;
+        top:16rem;
     }
 
     .text_container h1{
@@ -193,26 +197,73 @@
     }
 
     .text_container h4{
-        font-size: 1.4rem;
+        font-size: 1rem;
+        width: 250px;
+        margin-left: 3rem;
+    }
+
+    .buttonSec{
+        margin-right: 6.7rem;
+        width: 100px;
+        font-size: 11px;
+        margin-left: 9.4rem;
+        position: absolute;
+        top:8rem;
+        left: ;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    
+
+    .home__section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 320px;
+        position: relative;
+        height: 100vh;
+    }
+
+    .text_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        position: absolute;
+        top:5rem;
+    }
+
+    .text_container h1{
+        font-size: 2rem;
         width: 440px;
+        margin-left: 3rem;
+    }
+
+    .text_container h4{
+        font-size: 1rem;
+        width: 250px;
         margin-left: 3rem;
     }
 
 
     .img_container img{
-        width: 230px;
+        width: 260px;
         border-radius: 200px;
         filter: contrast(1.1);
         background-color: #222;
-        margin-right: 7rem;
-        margin-bottom: 4rem;
+        position: absolute;
+        left: 1.8rem;
     }
 
     .buttonSec{
         margin-right: 6.7rem;
-        width: 120px;
-        font-size: 14px;
-        margin-left: 8.4rem;
+        width: 100px;
+        font-size: 11px;
+        margin-left: 9.4rem;
     }
 
 }

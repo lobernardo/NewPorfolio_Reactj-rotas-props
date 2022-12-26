@@ -127,22 +127,26 @@
 @media screen and (max-width: 320px){
 
   .card__container{
-    width: 400px;
+    width: 290px;
   }
 
   .card__projects{
-    width: 300px;
+    width: 260px;
     position: relative;
   }
 
   .card__projects h4{
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  .card__projects p{
+    font-size: 14px;
   }
 
   .buttonSec_git{
     margin-left: 3.8rem;
     position: absolute;
-    left: 2rem;
+    left: 1rem;
   }
 }
 

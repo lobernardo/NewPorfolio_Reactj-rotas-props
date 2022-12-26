@@ -27,5 +27,15 @@
 }
 
 @media screen and (max-width: 320px){
+    .container_container{
+        width: 320px;
+        
+    }
+}
 
+@media screen and (max-width: 480px){
+    .container_container{
+        width: 480px;
+        
+    }
 }

@@ -72,7 +72,21 @@ footer p a:hover{
 
     @media screen and (max-width: 480px){
         .footer {
-            width: 520px;
+            width: 480px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+           
+        }
+
+        .social_list{
+            margin-right: 1.5rem;
+        }
+
+        .copy{
+            margin-right: 1.5rem;
         }
     }
 
@@ -82,14 +96,14 @@ footer p a:hover{
         .footer{
             background-color: #222 ;
             color:white;
-            padding: 1rem;
+            padding: 0.4rem;
             text-align: center;
             display: flex;
             justify-content: space-between;
             flex-direction: column;
             text-align: center;
             align-items: center;
-            width: 480px;
+            width: 320px;
           
         }
     
@@ -113,13 +127,13 @@ footer p a:hover{
         }
         
         .social_list li svg{
-            font-size: 1.7rem;
+            font-size: 1.2rem;
             cursor: pointer;
             color:white;
         }
 
         footer p{
-       
+            font-size: 0.6rem;
         }
         
     }
