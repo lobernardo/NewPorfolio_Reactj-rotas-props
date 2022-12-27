@@ -1,7 +1,7 @@
 
 import styles from './Skill.module.css'
-import LinkButton from '../../Layouts/ButtonSection/LinkButton'
 
+import Title from '../../Layouts/TitleSection/Title'
 import js from '../../assets/js.png'
 import typescript from '../../assets/typescript.png'
 import react from '../../assets/react.png'
@@ -15,10 +15,11 @@ import java from '../../assets/java.png'
 
 
 
-function Skill() {
+function Skill(props) {
     return(
         <section className={styles.container__skill}>
-            <h3>Conhecimentos</h3>
+            <Title 
+            titulo="Conhecimentos" />
 
             <div className={styles.box__skills}>
 

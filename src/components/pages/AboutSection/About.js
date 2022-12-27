@@ -1,13 +1,15 @@
 import styles from './About.module.css'
-import homeh from '../../assets/homeh.png'
+import lbernardo from '../../assets/lbernardo.png'
+import Title from '../../Layouts/TitleSection/Title'
 
 
 
-function About() {
+function About(props) {
     return(
         <section className={styles.about__container}>
 
-            <h3 className={styles.page__title}>Sobre</h3>
+            <Title 
+            titulo="Sobre" />
         
             <div className={styles.about__card}>
 
@@ -15,7 +17,7 @@ function About() {
                         <div className={styles.card_u}>
 
                                 <div className={styles.card_u_img}>
-                                     <img className={styles.back_img} src={homeh}/>
+                                     <img className={styles.back_img} src={lbernardo}/>
                                 </div>
 
                         </div>

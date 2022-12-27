@@ -1,21 +1,17 @@
-
 import styles from './Project.module.css'
+import Cardgit from '../CardGit/CardGit'
 
 
-import CardGit from '../CardGit/CardGit';
-
-function Project() {
-
-
-
+function Project(props) {
     return(
-        <section className={styles.project__section}>
-            <h3>Projetos</h3>
+     <div className={styles.project__section}>
+  
 
-                    <CardGit />
+        <div className={styles.card__section}>
+        <Cardgit />
+        </div>
 
-                   
-        </section>
+     </div>
     )
 }
 

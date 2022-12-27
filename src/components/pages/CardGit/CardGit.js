@@ -1,4 +1,4 @@
-
+import Title from '../../Layouts/TitleSection/Title';
 import styles from './Cardgit.module.css'
 import {useEffect, useState} from 'react';
 
@@ -14,10 +14,12 @@ export default function CardGit(props) {
 
 
   return(
-
+   
 
                     <div className={styles.container__project}>
-                        
+            <Title 
+            titulo="Projetos" />
+                  
                     <div className={styles.card__container}>
                         { repositories.map(repository => {
                             return(

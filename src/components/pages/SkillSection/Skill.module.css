@@ -9,13 +9,7 @@
       
 }
 
-.container__skill h3{
-    width: 100%;
-    font-size: 1.2rem;
-    text-align: center;
-    margin-right: 1rem;
- 
-}
+
 
 .box__skills{
     margin-top: 1rem;
@@ -86,12 +80,7 @@
         height: 75vh;
           
     }
-    .container__skill h3{
-        width: 100%;
-        font-size: 1.7rem;
-        margin-right: 2.1rem;
-     
-    }
+
 
     .box__skills{
         margin-top: 1rem;
@@ -164,12 +153,7 @@
           
     }
 
-    .container__skill h3{
-        width: 60%;
-        margin-top: 1.7rem;
-        font-size: 1.2rem;
-    }
-
+ 
     .box__skills{
         width: 800px;
         
@@ -218,12 +202,7 @@
     .container__skill{
         height: 75vh;
     }
-    .container__skill h3{
-        width: 60%;
-        margin-top: 1.7rem;
-        font-size: 1.7rem;
-    }
-
+ 
     .box__skills{
         width: 800px;;
         

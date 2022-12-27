@@ -178,11 +178,11 @@
   
   .container__project{
     width: 60%;
-    margin-left: 18.5rem;
-    margin-top: 0rem;
+    margin-left: 12.5rem;
+    margin-top: 2rem;
   }
   .card__container {
-    max-width: 1200px;
+    
     width: 800px;
     height: 50vh;
     display: flex;
