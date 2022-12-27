@@ -21,7 +21,7 @@
     box-shadow: 0px 10px 18px 0px #0b0b0b8d;
     height: 28vh;
     width: 55vw;
-    margin-bottom: 1rem;
+    margin-bottom: 1.85rem;
     overflow-y: auto;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .card_u_txt{
-    height: 26vh;
+    height: 28vh;
     overflow-y: auto;
 }
 .card_u_txt:hover{
@@ -291,7 +291,7 @@
         text-align: center;
         box-shadow: 0px 5px 18px 0px #0b0b0b8d;
         width: 200px;
-        height: 210px;
+        height: 520px;
     }
 }
 
