@@ -19,7 +19,7 @@
     overflow-y: auto;
     background-color: rgb(34, 34, 34);
     border-radius: 30px;
-    
+    margin-top: 2rem;
   
 }
 
@@ -40,7 +40,7 @@
 }
 
 .card_skills img{
-    width: 25vw;
+    width: 20vw;
     border-radius: 25px;
     padding: 0.5rem;
 }

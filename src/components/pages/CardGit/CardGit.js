@@ -31,7 +31,7 @@ export default function CardGit(props) {
                                     
                                     <p>{repository.description}</p>
                                     
-                                    <button className={styles.buttonSec_git}><a href= {repository.html_url} target='_blank'>Veja mais</a></button>
+                                    <button className={styles.buttonSec_git}><a href= {repository.html_url} target='_blank'>Repositório</a></button>
                                  
                                                       
                                 </div>
