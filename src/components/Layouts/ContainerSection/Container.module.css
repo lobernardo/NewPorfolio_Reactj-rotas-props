@@ -5,6 +5,7 @@
     justify-content: center;
     flex-wrap: wrap;  
     margin: 0 auto;
+   
 }
 
 .minHeight{
@@ -14,7 +15,7 @@
 @media screen and (max-width: 1024px){
     .container_container{
         width: 100%;
-        margin: 0 1024px;
+        margin: 0 auto;
     }
 }
 
