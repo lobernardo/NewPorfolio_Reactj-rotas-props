@@ -1,12 +1,37 @@
 .title__page{
     width: 240px;
     height: 40px;
-    text-align: center;
-    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+
    
 }
 
 .title__page h3{
-    font-size: 14px;
+    font-size: 16px;
+    padding-top: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-right: 2rem;
 }
 
+@media screen and (min-width: 1024px){
+    .title__page{
+        width: 600px;
+        height: 60px;
+        text-align: center;
+    }
+
+    .title__page h3{
+        font-size: 32px;
+    }
+    }
+    
+    @media screen and (min-width: 1920px){
+        .title__page{
+        
+            text-align: center;
+        }
+        }
+    

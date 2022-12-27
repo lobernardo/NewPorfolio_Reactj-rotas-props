@@ -1,5 +1,5 @@
 .footer{
-    width: 320px;
+    width: 100vw;
     background-color: #222 ;
     color:white;
     padding: 1rem;
@@ -62,3 +62,62 @@ footer p a:hover{
 
 }
 
+
+@media screen and (min-width: 768px){
+    footer p{
+        font-size: 16px;
+        margin-right: 2rem;
+    }
+
+    footer p a{
+        font-size: 16px;
+        margin-right: 2rem;
+    }
+    .social_list{
+        margin-right: 2rem;
+    }
+
+    
+}
+
+@media screen and (min-width: 1024px){
+    footer p{
+        font-size: 1rem;
+        margin-right:0.5rem;
+    }
+
+    footer p a{
+        font-size: 1rem;
+      
+    }
+    .social_list{
+        margin-right: 2rem;
+    }
+
+    .social_list li svg{
+        font-size: 1.4rem;
+        cursor: pointer;
+        color:white;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    footer p{
+        font-size: 1.2rem;
+        margin-right: 2rem;
+    }
+
+    footer p a{
+        font-size: 1.2rem;
+        margin-left: 0rem;
+    }
+    .social_list{
+        margin-right: 2rem;
+    }
+
+    .social_list li svg{
+        font-size: 1.6rem;
+        cursor: pointer;
+        color:white;
+    }
+}
