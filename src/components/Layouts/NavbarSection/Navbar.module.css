@@ -1,7 +1,7 @@
 .navbar{
-    width: 100%;
+    width: 320px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #222;
     padding: 0.5rem;
@@ -10,7 +10,7 @@
 
 .logo_leo{
     width: 55px;
-    margin-right: 0.6rem;
+    margin-right: 0.5rem;
 
 }
 
@@ -21,18 +21,19 @@
     justify-content: center;
     align-items: center;
     margin-top: 0.8rem;
+    margin-left:1rem ;
+    margin-right:1rem ;
     
 }
 
 .item{
     margin-right: 1rem;
-
 }
 
 .item a{
     color: white;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
 }
 
 .item a:hover{
@@ -41,7 +42,8 @@
 
 .wpp{
     margin-top: 0.5rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
+    
 }
 .wpp a{
     font-size: 30px;
@@ -49,100 +51,3 @@
     
 }
 
-@media screen and (min-width: 768px){
-    .navbar{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 100%;
-    }
-
-    .logo_leo{
-        width: 85px;
-        margin-right: 3rem;
-        
-    
-    }
-
-    .item{
-        margin-right: 3rem;
-    
-    }
-}
-
-@media screen and (min-width: 1024px){
-    .navbar{
-        width: 100%;
-    }
-
-    .item a{
-        font-size: 1.3rem;
-    }
-
-    .wpp a{
-        font-size: 50px;
-}
-.logo_leo{
-    margin-top: 0.5rem;
-}
-
-}
-
-@media screen and (min-width: 1920px){
-    .navbar{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #222;
-        padding: 0.5rem;
-        height: 10vh;
-    }
-    
-    .logo_leo{
-        width: 100px;
-        margin-right: 10.6rem;
-        margin-top: 0.6rem;
-    }
-    
-    .list{
-        display: flex;
-        list-style: none;
-        align-items: center;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 0.8rem;
-        
-        
-    }
-    
-    .item{
-        margin-right: 3rem;
-        display: flex;
-        list-style: none;
-        align-items: center;
-        justify-content: space-between;
-        align-items: center;
-    
-    }
-    
-    .item a{
-        color: white;
-        text-decoration: none;
-        font-size: 1.6rem;
-    }
-    
-    .item a:hover{
-        color: rgb(43, 65, 204);
-    }
-    
-    .wpp{
-        margin-top: 1rem;
-        margin-left: 10.6rem;
-    }
-    .wpp a{
-        font-size: 5rem;
-        color:rgb(10, 185, 10);
-        
-    }
-}

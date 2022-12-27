@@ -6,12 +6,17 @@ import curric_dev from '../../assets/curric_dev.pdf'
 
 import styles from './Home.module.css'
 
+import Container from '../../Layouts/ContainerSection/Container';
+
 import 'animate.css';
 
 
 
 function Home() {
     return(
+
+        <Container>
+
         <section className={styles.home__section} id='home'>
         
 
@@ -30,9 +35,9 @@ function Home() {
             </div>
 
 
-        
-         
         </section>
+        
+        </Container>
     )
 }
 

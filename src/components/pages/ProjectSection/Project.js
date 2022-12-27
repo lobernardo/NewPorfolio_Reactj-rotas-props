@@ -1,9 +1,10 @@
 import styles from './Project.module.css'
 import Cardgit from '../CardGit/CardGit'
-
+import Container from '../../Layouts/ContainerSection/Container'
 
 function Project(props) {
     return(
+        <Container>
      <div className={styles.project__section}>
   
 
@@ -12,6 +13,7 @@ function Project(props) {
         </div>
 
      </div>
+        </Container>
     )
 }
 

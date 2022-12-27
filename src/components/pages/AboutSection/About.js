@@ -1,15 +1,22 @@
 import styles from './About.module.css'
 import lbernardo from '../../assets/lbernardo.png'
 import Title from '../../Layouts/TitleSection/Title'
+import Container from '../../Layouts/ContainerSection/Container'
 
 
 
 function About(props) {
     return(
-        <section className={styles.about__container}>
+        <Container>
 
             <Title 
+            className={styles.title__about}
             titulo="Sobre" />
+
+            
+        <section className={styles.about__container}>
+
+            
         
             <div className={styles.about__card}>
 
@@ -38,6 +45,7 @@ function About(props) {
          
             
         </section>
+        </Container>
     )
 }
 

@@ -5,10 +5,12 @@ import { FaGithub } from "react-icons/fa";
 
 
 import styles from './Footer.module.css'
+import Container from "../ContainerSection/Container";
 
 
 function Footer(){
         return(
+          <Container>
           <footer className={styles.footer}>
             <ul className={styles.social_list}>
               <li><a href='https://github.com/lobernardo' target= '_blank'><FaGithub /></a></li>
@@ -19,6 +21,7 @@ function Footer(){
             <p className={styles.copy}>
               <span>Portfóio</span>  &copy;  2022</p>
           </footer>
+          </Container>
         )
     }
 

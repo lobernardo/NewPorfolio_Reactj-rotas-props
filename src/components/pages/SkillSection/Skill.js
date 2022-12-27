@@ -12,14 +12,19 @@ import angular from '../../assets/angular.png'
 import git from '../../assets/git.png'
 import java from '../../assets/java.png'
 
+import Container from '../../Layouts/ContainerSection/Container'
+
 
 
 
 function Skill(props) {
     return(
+        <Container>
+               <Title 
+                titulo="Conhecimentos" />
+                
         <section className={styles.container__skill}>
-            <Title 
-            titulo="Conhecimentos" />
+         
 
             <div className={styles.box__skills}>
 
@@ -109,6 +114,7 @@ function Skill(props) {
 
             </div>
         </section>
+        </Container>
     )
 }
 

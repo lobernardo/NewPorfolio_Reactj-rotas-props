@@ -7,13 +7,12 @@ import styles from './Navbar.module.css'
 
 function Navbar() {
     return(
-        <nav className={styles.navbar}>
+        
 
             <Container>
 
-                 
-                  
-                  
+                <nav className={styles.navbar}>
+                    
                 <ul className={styles.list}>
                   
                 <Link to='/'><img className={styles.logo_leo} src={logoleo}/></Link>
@@ -31,13 +30,10 @@ function Navbar() {
                 </div>
 
                 </ul>
-                
-               
 
-            </Container>
+             </nav>
 
-        </nav>
-
+        </Container>
     )
 }
 
