@@ -37,12 +37,13 @@
     .project__section h3{
         width: 60%;
         font-size: 1.7rem;
-        margin-left: 18rem;
+        margin-left: 22rem;
         margin-top: 1.7rem;
       
     }
 
     .project__section{
         height: 75vh;
+        width: 100%;
     }
 }

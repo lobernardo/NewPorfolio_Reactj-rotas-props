@@ -85,7 +85,7 @@
 
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1920px){
     .navbar{
         width: 100%;
         display: flex;
@@ -99,7 +99,7 @@
     .logo_leo{
         width: 100px;
         margin-right: 10.6rem;
-    
+        margin-top: 0.6rem;
     }
     
     .list{
@@ -126,7 +126,7 @@
     .item a{
         color: white;
         text-decoration: none;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     
     .item a:hover{
@@ -134,7 +134,7 @@
     }
     
     .wpp{
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         margin-left: 10.6rem;
     }
     .wpp a{
