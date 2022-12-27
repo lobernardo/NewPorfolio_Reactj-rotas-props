@@ -8,7 +8,7 @@
 
   .card__container {
     max-width: 1200px;
-    height: 60vh;
+    height: 55vh;
     width: 90vw;
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +18,7 @@
     text-align: center;
     background-color: rgb(34, 34, 34);
     border-radius: 30px;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     position: relative;
   }
 
@@ -35,6 +35,12 @@
     
   }
 
+  .card__projects:hover{
+    transition: 0.6s;
+    background-color: rgb(96, 94, 94);
+    cursor: pointer;
+    border: none;
+  }
 
 
   .card__projects p{
@@ -72,7 +78,7 @@
   .buttonSec_git a{
     font-size: 1rem;
     cursor: pointer;
-    color:rgb(142, 143, 146);
+    color:rgb(255, 255, 255);
     text-decoration: none;
   }
 

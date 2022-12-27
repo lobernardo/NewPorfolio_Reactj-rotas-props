@@ -20,7 +20,7 @@
     border-radius: 20px;
     box-shadow: 0px 10px 18px 0px #0b0b0b8d;
     height: 28vh;
-    width: 60vw;
+    width: 55vw;
     margin-bottom: 1rem;
     overflow-y: auto;
 }
@@ -29,14 +29,14 @@
     text-align: center;
     border-radius: 20px;
     box-shadow: 0px 10px 18px 0px #0b0b0b8d;
-    height: 30vh;
-    width: 60vw;
+    height: 28vh;
+    width: 55vw;
 }
 
 
 .card_u_img img{
-    height: 30vh;
-    width: 60vw;
+    height: 28vh;
+    width: 55vw;
     border-radius: 20px;
     background-color: #222;
     
@@ -55,6 +55,7 @@
 }
 
 .card_u_txt{
+    height: 26vh;
     overflow-y: auto;
 }
 
@@ -203,6 +204,10 @@
     
     }
     
+    .card_u_txt{
+        height: 360px;
+    }
+
     .card_u_txt p span{
         font-weight: bold;
     }
@@ -214,7 +219,7 @@
         text-align: center;
         box-shadow: 0px 5px 18px 0px #0b0b0b8d;
         width: 200px;
-        height: 210px;
+        height: 360px;
     }
 }
 
