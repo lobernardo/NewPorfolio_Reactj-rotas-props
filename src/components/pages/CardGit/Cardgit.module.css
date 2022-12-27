@@ -37,9 +37,10 @@
 
   .card__projects:hover{
     transition: 0.6s;
-    background-color: rgb(96, 94, 94);
+    background-color: rgb(219, 205, 100);
     cursor: pointer;
     border: none;
+    color:rgb(40, 38, 38)
   }
 
 
