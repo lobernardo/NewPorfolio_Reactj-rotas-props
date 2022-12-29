@@ -1,14 +1,14 @@
-.buttonSec{
-    background-color: rgb(75, 74, 74) ;
-    color: rgb(246, 247, 252);
-    padding: 0.5rem 1rem;
+.btn {
     text-decoration: none;
-    transition: 0.5s;
-    border-radius: 20px;
+    list-style: none;
+    background-color: rgb(48, 46, 46);
+    color:wheat;
 }
 
-.buttonSec:hover{
-    color:rgb(142, 143, 146);
+
+.btn a{
     text-decoration: none;
-    background-color: rgb(25, 62, 163);
+    list-style: none;
+    background-color: rgb(48, 46, 46);
+    color:wheat;
 }

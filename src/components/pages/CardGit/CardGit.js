@@ -15,31 +15,28 @@ export default function CardGit(props) {
 
   return(
    
+        <div className={styles.card__container}>
+            { repositories.map(repository => {
+            return(
+                                    
+                    <div key={repository.id} className={styles.card__projects}>
 
-                    <div className={styles.container__project}>
-            <Title 
-            titulo="Projetos" />
-                  
-                    <div className={styles.card__container}>
-                        { repositories.map(repository => {
-                            return(
                                 
-                                <div key={repository.id} className={styles.card__projects}>
+                        <h4>{repository.name}</h4>
+                                        
+                        <p>{repository.description}</p>
+                                        
+                        <button className={styles.btn_pj}><a href= {repository.html_url} target='_blank'>Repositório</a></button>
+                                    
+                                                        
+                    </div>
+            )
+            })}
 
-                               
-                                    <h4>{repository.name}</h4>
-                                    
-                                    <p>{repository.description}</p>
-                                    
-                                    <button className={styles.buttonSec_git}><a href= {repository.html_url} target='_blank'>Repositório</a></button>
-                                 
-                                                      
-                                </div>
-                            )
-                        })}
-                    </div>
+         </div>
+    
                     
-                    </div>
+   
         
   );
 }

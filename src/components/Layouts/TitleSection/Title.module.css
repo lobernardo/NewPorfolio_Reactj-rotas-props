@@ -1,37 +1,16 @@
-.title__page{
-    width: 240px;
-    height: 40px;
-    margin-top: 0.5rem;
 
-   
-}
-
-.title__page h3{
-    font-size: 16px;
-    padding-top: 0.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-right: 2rem;
-}
-
-@media screen and (min-width: 1024px){
     .title__page{
-        width: 600px;
-        height: 60px;
+        width: 40rem;
+        height: 2.75rem;
         text-align: center;
+        background-color: #222;
+        border-radius: 200px;
+        text-align: center;
+        letter-spacing: 2px;
     }
 
     .title__page h3{
-        font-size: 32px;
+        font-size: 2rem;
+        color: rgb(47, 103, 188);
+        text-align: center;
     }
-    }
-    
-    @media screen and (min-width: 1920px){
-        .title__page{
-        
-            text-align: center;
-        }
-        }
-    

@@ -7,7 +7,7 @@ function LinkButton({to, text}) {
 
   return(
     
-      <Link className={styles.buttonSec} to={to}>
+      <Link className={styles.btn} to={to}>
         {text}
       </Link>
   )

@@ -1,14 +1,12 @@
-
-
-import avatarhome from '../../assets/avatarhome.png'
-
-import curric_dev from '../../assets/curric_dev.pdf'
+import PicHome from '../../Layouts/PicHomeSection/PicHome';
 
 import styles from './Home.module.css'
 
 import Container from '../../Layouts/ContainerSection/Container';
 
 import 'animate.css';
+
+import TextAnimation from '../../Layouts/TextAnimationSection/TextAnimation'
 
 
 
@@ -18,23 +16,11 @@ function Home() {
         <Container>
 
         <section className={styles.home__section} id='home'>
-        
 
-            <div className={styles.text_container} >
-                    <h1 className='txt_title'>Leo Bernardo</h1>
-                    <h4 className='animated_txt'>Desenvolvedor <span>Front-End</span></h4>
-                    <a className={styles.buttonSec} href={curric_dev}  target="_blank">Download CV</a>
-            </div>
-                    
+            <TextAnimation />    
+
+            <PicHome />
             
-
-            <div className={styles.img_container}>
-                    <img src={avatarhome}/>
-                
-
-            </div>
-
-
         </section>
         
         </Container>

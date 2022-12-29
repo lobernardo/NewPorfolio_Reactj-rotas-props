@@ -1,15 +1,18 @@
-
-    .project__section{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-        position: relative;
-    }
+.capsula{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    justify-content: space-between;
+    max-height: 400px;
 
  
-@media screen and (min-width: 1024px){
+}
 
+
+.project__section{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }

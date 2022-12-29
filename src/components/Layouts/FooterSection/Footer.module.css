@@ -1,134 +1,78 @@
-footer{
+.footer{
     width: 100%;
     display: flex;
     flex-direction: column;
+    height: 20vh;
+    background-color: #222;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
-
-.footer{
-    background-color: #222 ;
-    color:white;
-    padding: 1rem;
-    text-align: center;
-    width: 600vw;
-   
 }
 
 .social_list{
-    width: 100%;
+    list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    list-style: none;
-    margin-top: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 .social_list li{
-    margin-right:1rem;
-    margin-top: 0.5rem;
-  
+    margin-right: 1rem;
+    font-size: 1.6rem;
 }
 
-.social_list li svg:hover{
-    color: rgb(43, 65, 204);
-}
-
-.social_list li svg{
-    font-size: 1.4rem;
-    cursor: pointer;
-    color:white;
-}
-
-.copy{
-    margin-top: 0.5rem;
-    display: flex;
-    justify-content: center;
-
-
-}
-
-.copy span{
-    font-weight: bold;
-    color: rgb(207, 208, 215);
-    margin-right: 0.5rem;
-    
-}
-
-footer p{
-    font-weight: 200;
-    letter-spacing: 1px;
-    font-size: 0.8rem;
-}
-
-footer p a{
-    cursor: pointer;
-    font-size: 0.8rem;
-
-}
-
-footer p a:hover{
+.social_list li:hover{
     color: blue;
+}
 
+.footer p{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer p span{
+    margin-right: 1rem;
 }
 
 
-@media screen and (min-width: 768px){
-    footer p{
-        font-size: 16px;
-        margin-right: 2rem;
-    }
+@media screen and (min-width: 320px) and (max-width:900px) {
 
-    footer p a{
-        font-size: 16px;
-        margin-right: 2rem;
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 15vh;
+        background-color: #222;
+        justify-content: center;
+        align-items: center;
     }
-    .social_list{
-        margin-right: 2rem;
-    }
-
     
-}
-
-@media screen and (min-width: 1024px){
-    footer p{
-        font-size: 1rem;
-        margin-right:0.5rem;
-    }
-
-    footer p a{
-        font-size: 1rem;
-      
-    }
     .social_list{
-        margin-right: 2rem;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
     }
-
-    .social_list li svg{
-        font-size: 1.4rem;
-        cursor: pointer;
-        color:white;
-    }
-}
-
-@media screen and (min-width: 1920px){
-    footer p{
+    
+    .social_list li{
+        margin-right: 1rem;
         font-size: 1.2rem;
-        margin-right: 2rem;
     }
-
-    footer p a{
-        font-size: 1.2rem;
-        margin-left: 0rem;
+    
+    .social_list li:hover{
+        color: blue;
     }
-    .social_list{
-        margin-right: 2rem;
+    
+    .footer p{
+        color: white;
+        font-size: 0.7rem;
     }
-
-    .social_list li svg{
-        font-size: 1.6rem;
-        cursor: pointer;
-        color:white;
+    
+    .footer p span{
+        margin-right: 1rem;
     }
+    
 }

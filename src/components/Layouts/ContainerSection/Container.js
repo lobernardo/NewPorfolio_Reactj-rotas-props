@@ -3,7 +3,7 @@ import styles from './Container.module.css'
 
 function Container(props) {
     return(
-        <div className={`${styles.container_container} ${styles[props.customClass]}`}>
+        <div className={`${styles.container_section} ${styles[props.customClass]}`}>
             {props.children}
         </div>
     )

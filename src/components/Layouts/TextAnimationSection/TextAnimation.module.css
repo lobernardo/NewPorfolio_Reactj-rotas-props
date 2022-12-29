@@ -1,0 +1,114 @@
+.btn_cv{
+    width: 7.5rem;
+    height: 2rem;
+    border-radius: 200px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: #222;
+    color:rgb(7, 13, 38);
+}
+
+ a{
+    color: rgb(205, 199, 199);
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover{
+    color:rgb(47, 103, 188);
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.text_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+    width: 410px;
+}
+
+
+.text_container h1{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+
+
+.text_container h4 span{
+    color: rgb(43, 65, 204);
+    padding: 0.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 50px;
+}
+
+
+.text_container h4{
+    letter-spacing: 2px;
+    font-size:2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    border-right: 2px solid black;
+    padding-right: 3px;
+    max-width:0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: pisca normal infinite .8s, escrever normal 5s steps(55) both;
+}
+
+@keyframes pisca{
+    100%{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes escrever{
+    100%{
+        max-width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width:900px){
+
+    .text_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;  
+        width: 310px;
+    }
+    
+    
+    .text_container h1{
+        font-size: 2rem;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .text_container h4{
+        letter-spacing: 2px;
+        font-size:1.3rem;
+        margin-bottom: 2rem;
+    
+    }
+
+    .text_container h4 span{
+        color: rgb(43, 65, 204);
+        padding: 0.2rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        border: 50px;
+    }
+
+    
+}

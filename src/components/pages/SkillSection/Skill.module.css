@@ -1,261 +1,102 @@
-.container__skill{
+.capsula{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-      
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    height: 71.9%;
+   
+ 
 }
 
+.btn_skill{
+    width: 7.5rem;
+    height: 2rem;
+    border-radius: 200px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: #222;
+    color:rgb(7, 13, 38);
+}
 
+.container__skill{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-.box__skills{
+.skills_container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 1rem;
-    height: 60vh;
-    width: 90vw;
+    justify-content: space-evenly;
+    height: 100%;
     overflow-y: auto;
     background-color: rgb(34, 34, 34);
     border-radius: 30px;
-    margin-top: 1.5rem;
-  
+    overflow-y: auto;
+    animation: myAnim_um 1.5s ease-out 0s 1 normal forwards;
+}
+
+@keyframes myAnim_um {
+	0% {
+		opacity: 0;
+		transform: rotateX(70deg);
+		transform-origin: top;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateX(0deg);
+		transform-origin: top;
+	}
 }
 
 .card_skills{
-    border:2px solid rgb(143, 140, 140);
-    background-color: rgba(233, 233, 223, 0.837);
-    width: 30%;
-    height: 140px;
+    padding: 0.4rem;
+    background-color: rgb(189, 192, 194);
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 10px 18px 0px #0b0b0b8d;
+    width: 160px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     margin: 1.5rem;
-    border-radius: 15px;
-    padding:1rem;
-
-   
-}
-
-.card_skills:hover{
-    transition: 0.6s;
-    background-color: rgb(219, 205, 100);
-    cursor: pointer;
-    border: none;
-    
+    flex-wrap: wrap;
+  
 }
 
 .card_skills img{
-    width: 15vw;
-    border-radius: 25px;
-    padding: 0.5rem;
-}
-
-.txt_card h4{
-    color:rgb(38, 39, 40);
-    font-size: 11px;
-    font-weight: bold;
-}
-
-.buttonSec{
-    background-color: rgb(75, 74, 74) ;
-    color: rgb(246, 247, 252);
-    padding: 0.3rem;
-    text-decoration: none;
-    transition: 0.5s;
+    width: 80px;
     border-radius: 20px;
-    width: 60px;
 }
 
-.buttonSec:hover{
-    color:rgb(255, 255, 255);
-    text-decoration: none;
-    background-color: rgb(25, 62, 163);
+.card_skills h4{
+    color:rgb(7, 13, 38);
+    font-size: 1.2rem;
 }
 
- a{
-    font-size: 9px;
-    text-align: center;
+.card_skills:hover{
+    animation: myAnim 1s cubic-bezier(0.11, 0, 0.5, 0) 0s 1 normal forwards;
+    cursor: pointer;
 }
 
+@keyframes myAnim {
+	0% {
+		transform: scale(1);
+	}
 
-@media screen and (min-width: 768px){
+	50% {
+		transform: scale(1.1);
+	}
 
-    .container__skill{
- 
-        height: 75vh;
-          
-    }
-
-
-    .box__skills{
-        margin-top: 1rem;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        height: 65vh;
-        overflow-y: auto;
-        background-color: rgb(34, 34, 34);
-        margin-top: 2rem;
-        border-radius: 30px;
-        margin-right: 2.1rem;
-    }
-    
-    .card_skills{
-        border:2px solid rgb(143, 140, 140);
-        background-color: rgba(233, 233, 223, 0.837);
-        width: 200px;
-        height: 160px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        margin: 1.5rem;
-        border-radius: 15px;
-        padding:1rem;
-       
-    }
-    
-    .card_skills img{
-        width: 80px;
-        border-radius: 25px;
-        padding: 0.5rem;
-    }
-    
-    .txt_card h4{
-        color:rgb(38, 39, 40);
-        font-size: 1rem;
-    }
-    
-    .buttonSec{
-        background-color: rgb(75, 74, 74) ;
-        color: rgb(246, 247, 252);
-        padding: 0.3rem;
-        text-decoration: none;
-        transition: 0.5s;
-        border-radius: 20px;
-        width: 100px;
-    }
-    
-    .buttonSec:hover{
-        color:rgb(142, 143, 146);
-        text-decoration: none;
-        background-color: rgb(25, 62, 163);
-    }
-    
-     a{
-        font-size: 0.7rem;
-        text-align: center;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-
-    
-
-    .container__skill{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 75vh;
-          
-    }
-
- 
-    .box__skills{
-        width: 800px;
-        margin-bottom: 6rem;
-        
-    }
-
-    .card_skills{
-        width: 300px;
-    }
-
-    .card_skills img{
-        width: 90px;
-        border-radius: 25px;
-        padding: 0.5rem;
-    }
-    
-    .txt_card h4{
-        color:rgb(38, 39, 40);
-        font-size: 1.3rem;
-    }
-    
-    .buttonSec{
-        background-color: rgb(75, 74, 74) ;
-        color: rgb(246, 247, 252);
-        padding: 0.3rem;
-        text-decoration: none;
-        transition: 0.5s;
-        border-radius: 20px;
-        width: 110px;
-        margin-bottom: 0.7rem;
-    }
-    
-    .buttonSec:hover{
-        color:rgb(142, 143, 146);
-        text-decoration: none;
-        background-color: rgb(25, 62, 163);
-    }
-    
-     a{
-        font-size: 0.9rem;
-        text-align: center;
-    }
-}
-
-@media screen and (min-width: 1920px){
-
-    .container__skill{
-        height: 75vh;
-    }
- 
-    .box__skills{
-        width: 800px;;
-        
-    }
-
-    .card_skills{
-        width: 300px;
-    }
-
-    .card_skills img{
-        width: 90px;
-        border-radius: 25px;
-        padding: 0.5rem;
-    }
-    
-    .txt_card h4{
-        color:rgb(38, 39, 40);
-        font-size: 1.3rem;
-    }
-    
-    .buttonSec{
-        background-color: rgb(75, 74, 74) ;
-        color: rgb(246, 247, 252);
-        padding: 0.3rem;
-        text-decoration: none;
-        transition: 0.5s;
-        border-radius: 20px;
-        width: 110px;
-        margin-bottom: 0.7rem;
-    }
-    
-    .buttonSec:hover{
-        color:rgb(142, 143, 146);
-        text-decoration: none;
-        background-color: rgb(25, 62, 163);
-    }
-    
-     a{
-        font-size: 0.9rem;
-        text-align: center;
-    }
+	100% {
+		transform: scale(1);
+	}
 }

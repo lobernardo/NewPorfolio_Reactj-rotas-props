@@ -1,18 +1,23 @@
 import styles from './Project.module.css'
 import Cardgit from '../CardGit/CardGit'
 import Container from '../../Layouts/ContainerSection/Container'
+import Title from '../../Layouts/TitleSection/Title'
 
 function Project(props) {
     return(
         <Container>
-     <div className={styles.project__section}>
+
+        <section className={styles.project__section}>
   
+            <Title 
+            titulo="Projetos" />
 
-        <div className={styles.card__section}>
-        <Cardgit />
-        </div>
+            <div className={styles.capsula}>
+            <Cardgit />
+            </div>
 
-     </div>
+        </section>
+
         </Container>
     )
 }
