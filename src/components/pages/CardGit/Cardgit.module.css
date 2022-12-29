@@ -19,11 +19,17 @@
     align-items: center;
     border-radius: 30px;
     width: 50%;
-    height: 50%;
+    height: 170px;
     text-align: center;
     margin:1.5rem;
     padding: 2rem;
 
+}
+
+.card__projects:hover{
+    background-color: rgb(100, 100, 100);
+    animation: myAnim_pj 1s cubic-bezier(0.11, 0, 0.5, 0) 0s 1 normal forwards;
+    cursor: pointer;
 }
 
 .btn_pj{
@@ -38,10 +44,7 @@
 }
 
 
-.card__projects:hover{
-    animation: myAnim_pj 1s cubic-bezier(0.11, 0, 0.5, 0) 0s 1 normal forwards;
-    cursor: pointer;
-}
+
 
 
 @keyframes myAnim_pj {
