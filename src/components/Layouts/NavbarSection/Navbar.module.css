@@ -13,6 +13,7 @@
 .navbar{
     display: flex;
     margin-top: 0.5rem;
+  
 }
 
 .list{
@@ -26,6 +27,7 @@
 .item{
     margin-right: 1.3rem;
     font-size: 1.2rem;
+    border: none;
     
 }
 
@@ -34,12 +36,17 @@
     list-style: none;
     color:rgb(218, 208, 208);
     letter-spacing: 1px;
+    
+    
 }
 
 .item a:hover{
     transition: 0.4s;
+    border: none;
     color:rgb(47, 103, 188);
+
 }
+
 
 .item_wpp a{
     font-size: 2.5rem;
@@ -59,24 +66,40 @@
 
 
 @media screen and (min-width: 320px) and (max-width:900px) {
-    .navbar{
-        width: 65%;
+
+    .menu_section{
+        width: 300px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-top: 0.8rem;
+
     }
+
+    .navbar{
+        width: 100%;
+    }
+
 
     .item{
         margin-right: 1rem;
         font-size: 0.8rem;
-        
+        list-style-type: none;
     }
 
     .logo_leo{
-        width: 60px;
-        margin-top: 0.4rem;
+        width: 50px;
+        margin-top: 0.1rem;
+        margin-right: 1rem;
+        margin-left: 0.6rem;
+    }
+
+    .item_wpp a{
+        font-size: 0rem;
+        
+        color:green;
+        
+        
     }
     
 }

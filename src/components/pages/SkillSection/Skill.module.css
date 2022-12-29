@@ -8,37 +8,17 @@
  
 }
 
-.btn_skill{
-    width: 7.5rem;
-    height: 2rem;
-    border-radius: 200px;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    background-color: #222;
-    color:rgb(7, 13, 38);
-}
 
-.container__skill{
+.skill_container{
     width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.skills_container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    height: 100%;
-    overflow-y: auto;
-    background-color: rgb(34, 34, 34);
-    border-radius: 30px;
-    overflow-y: auto;
     animation: myAnim_um 1.5s ease-out 0s 1 normal forwards;
 }
+
+
 
 @keyframes myAnim_um {
 	0% {
@@ -54,39 +34,7 @@
 	}
 }
 
-.card_skills{
-    padding: 0.4rem;
-    background-color: rgb(189, 192, 194);
-    border-radius: 30px;
-    text-align: center;
-    cursor: pointer;
-    box-shadow: 0px 10px 18px 0px #0b0b0b8d;
-    width: 160px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 1.5rem;
-    flex-wrap: wrap;
-  
-}
 
-.card_skills img{
-    width: 80px;
-    border-radius: 20px;
-}
-
-.card_skills h4{
-    color:rgb(7, 13, 38);
-    font-size: 1.2rem;
-}
-
-.card_skills:hover{
-    animation: myAnim 1s cubic-bezier(0.3, 0, 0.3, 0) 0s 1 normal forwards;
-    cursor: pointer;
-    background-color: rgb(100, 100, 100);
-}
 
 @keyframes myAnim {
 	0% {
@@ -101,3 +49,28 @@
 		transform: scale(1);
 	}
 }
+
+
+@media screen and (min-width: 320px) and (max-width:900px){
+
+	.skill_container{
+		display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 30px;
+        text-align: center;
+	}
+
+	.capsula{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	   
+	 
+	}
+}
+

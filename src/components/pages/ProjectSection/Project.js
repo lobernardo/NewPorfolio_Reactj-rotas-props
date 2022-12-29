@@ -7,7 +7,7 @@ function Project(props) {
     return(
         <Container>
 
-        <section className={styles.project__section}>
+        <section className={styles.project__container}>
   
             <Title 
             titulo="Projetos" />

@@ -1,7 +1,7 @@
 
     .title__page{
         width: 40rem;
-        height: 2.75rem;
+        height: 1rem;
         text-align: center;
         background-color: #222;
         border-radius: 200px;
@@ -14,3 +14,24 @@
         color: rgb(47, 103, 188);
         text-align: center;
     }
+
+
+
+    
+@media screen and (min-width: 320px) and (max-width:900px){
+
+
+  
+    .title__page{
+        background-color: #222;
+        border-radius: 200px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .title__page h3{
+        font-size: 1rem;
+        color: rgb(47, 103, 188);
+        text-align: center;
+    }
+}

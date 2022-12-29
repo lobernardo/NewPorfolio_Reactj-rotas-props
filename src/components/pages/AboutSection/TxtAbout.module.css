@@ -1,0 +1,61 @@
+.txt_about{
+    width: 600px;
+   height: 403px;
+   overflow-y: auto;
+   background-color: rgb(58, 56, 56);
+   border-radius: 30px;
+   display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.txt_about p{
+    font-size: 1rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    text-align: start;
+    font-weight: 400;
+    color: rgb(214, 214, 214);
+
+ }
+
+ .txt_about p span{
+    font-weight: bold;
+ }
+
+
+
+ .txt_about:hover{
+   animation: myAnim 1s cubic-bezier(0.3, 0, 0.3, 0) 0s 1 normal forwards;
+   cursor: pointer;
+   background-color: rgba(70, 85, 106, 0.618);
+   border-radius: 30px;
+}
+
+@keyframes myAnim {
+  0% {
+     transform: scale(1);
+  }
+
+  50% {
+     transform: scale(1.1);
+  }
+
+  100% {
+     transform: scale(1);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width:900px){
+
+   .txt_about{
+      width: 300px;
+      height: 200px;
+      overflow-y: auto;
+      background-color: rgb(58, 56, 56);
+      border-radius: 30px;
+  }
+
+}

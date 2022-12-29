@@ -5,21 +5,23 @@
     text-align: center;
     text-decoration: none;
     list-style: none;
-    background-color: #222;
+    background-color: rgb(33, 70, 155);
     color:rgb(7, 13, 38);
+    border: none;
 }
 
- a{
-    color: rgb(205, 199, 199);
+.text_container .btn_cv a{
+    color: rgb(212, 213, 216);
     text-decoration: none;
     list-style: none;
 }
 
-a:hover{
-    color:rgb(47, 103, 188);
+.text_container .btn_cv a:hover{
+    color:rgb(18, 18, 18);
     text-decoration: none;
     list-style: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 
@@ -36,6 +38,7 @@ a:hover{
     font-size: 3rem;
     letter-spacing: 1px;
     margin-bottom: 1rem;
+    color: white;
 }
 
 
@@ -50,6 +53,7 @@ a:hover{
 
 
 .text_container h4{
+    color: white;
     letter-spacing: 2px;
     font-size:2rem;
     margin-bottom: 2rem;
@@ -88,7 +92,7 @@ a:hover{
     
     
     .text_container h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         letter-spacing: 1px;
         margin-bottom: 1rem;
         margin-top: 2rem;
@@ -110,5 +114,8 @@ a:hover{
         border: 50px;
     }
 
+    .btn_cv{
+        margin-bottom: 2rem;
+    }
     
 }

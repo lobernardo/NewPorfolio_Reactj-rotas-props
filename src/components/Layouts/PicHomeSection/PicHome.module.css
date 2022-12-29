@@ -54,3 +54,17 @@
 		transform: translateY(0px);
 	}
 }
+
+
+@media screen and (min-width: 320px) and (max-width:900px){
+
+
+    
+    .img_container img{
+        width: 180px;
+        background-color: #222;
+        border-radius: 200px;
+        margin-top: 0.5rem;
+        
+    }
+}

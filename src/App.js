@@ -10,7 +10,7 @@ import Container from './components/Layouts/ContainerSection/Container'
 
 
 import './App.css';
-import Capsula from './components/Layouts/EncapsuleSection/Capsula'
+
 
 function App() {
   return (
