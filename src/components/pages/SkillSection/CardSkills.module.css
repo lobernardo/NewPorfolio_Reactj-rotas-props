@@ -46,19 +46,7 @@
     animation: myAnim_um 1.5s ease-out 0s 1 normal forwards;
 }
 
-@keyframes myAnim_um {
-	0% {
-		opacity: 0;
-		transform: rotateX(70deg);
-		transform-origin: top;
-	}
 
-	100% {
-		opacity: 1;
-		transform: rotateX(0deg);
-		transform-origin: top;
-	}
-}
 
 .card_skills{
     padding: 0.4rem;

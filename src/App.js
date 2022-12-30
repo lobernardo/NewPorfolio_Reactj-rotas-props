@@ -5,11 +5,13 @@ import Skill from './components/pages/SkillSection/Skill'
 import Project from './components/pages/ProjectSection/Project'
 import Navbar from './components/Layouts//NavbarSection/Navbar'
 import Footer from './components/Layouts/FooterSection/Footer'
+import Contact from './components/pages/ContactSection/Contact'
 
 import Container from './components/Layouts/ContainerSection/Container'
 
 
 import './App.css';
+
 
 
 function App() {
@@ -31,6 +33,9 @@ function App() {
             </Route>
 
             <Route path='/project' element={<Project />}>
+            </Route>
+
+            <Route path='/contact' element={<Contact />}>
             </Route>
           </Routes>
 

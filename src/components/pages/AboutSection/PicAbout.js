@@ -5,6 +5,7 @@ import lbernardo from '../../assets/lbernardo.png'
 
 
 
+
 function PicAbout() {
     return(
 

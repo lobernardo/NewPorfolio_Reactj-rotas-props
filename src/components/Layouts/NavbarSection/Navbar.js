@@ -27,6 +27,8 @@ function Navbar() {
                           <li className={styles.item}><Link to='/skill'>Tecnologias</Link></li>
                       
                           <li className={styles.item}><Link to='/project'>Projetos</Link></li>
+
+                          <li className={styles.item}><Link to='/contact'>Contato</Link></li>
                           
 
                           <li className={styles.item_wpp}><a href='https://wa.me/+5521991575613' target= '_blank'><FaWhatsappSquare alt="whatsapp" /></a></li>

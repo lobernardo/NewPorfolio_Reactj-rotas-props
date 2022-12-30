@@ -15,24 +15,21 @@
     align-items: center;
     border-radius: 30px;
     text-align: center;
-    animation: myAnim_um 1s ease-out 0s 1 normal forwards;
+    animation: myAnim 1.5s ease 0s 1 normal forwards;
 }
 
 
 
-@keyframes myAnim_um {
+@keyframes myAnim {
 	0% {
 		opacity: 0;
-		transform: rotateX(70deg);
-		transform-origin: top;
 	}
 
 	100% {
 		opacity: 1;
-		transform: rotateX(0deg);
-		transform-origin: top;
 	}
 }
+
 
 
 
