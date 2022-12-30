@@ -6,8 +6,8 @@
 }
 
 body{
-  
   background-color: #222;
+ 
 }
 
 
@@ -18,3 +18,6 @@ body{
   height: 100vh;
 }
 
+.root{
+  width: 500px;
+}

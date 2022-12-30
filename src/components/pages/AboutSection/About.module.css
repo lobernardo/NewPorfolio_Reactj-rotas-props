@@ -49,14 +49,14 @@
         align-items: center;
         border-radius: 30px;
         text-align: center;
+      
         
     }
 
     .capsula{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
+        width: 290px;
+        height: 400px;
     }
 }

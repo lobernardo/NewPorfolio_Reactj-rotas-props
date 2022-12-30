@@ -36,19 +36,23 @@
 
 @media screen and (min-width: 320px) and (max-width:900px){
 
+
+
     .project__container{
+        width:290px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-     
+        border-radius: 30px;
+        text-align: center;
         
     }
-    
+
     .capsula{
         display: flex;
-        flex-direction: column;
-        
-        height: 100%;
+  flex-direction: column;
+  width: 320px;
+  height: 400px;
     }
 }
