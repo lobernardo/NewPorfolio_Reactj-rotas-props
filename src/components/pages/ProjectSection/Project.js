@@ -13,7 +13,9 @@ function Project(props) {
             titulo="Projetos" />
 
             <div className={styles.capsula}>
+
             <Cardgit />
+            
             </div>
 
         </section>

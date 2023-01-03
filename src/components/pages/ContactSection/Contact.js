@@ -2,7 +2,7 @@ import styles from './Contact.module.css'
 import Title from '../../Layouts/TitleSection/Title'
 import Input from './Input'
 
-import img_contact from '../../assets/img_contact.png'
+import contact_pic2 from '../../assets/contact_pic2.png'
 
 function Contact() {
     return(
@@ -21,7 +21,7 @@ function Contact() {
 
                     <Input />
 
-                    <img className={styles.contact_img} src={img_contact}/>
+                    <img className={styles.contact_img} src={contact_pic2}/>
                     
                     </div>
                 
