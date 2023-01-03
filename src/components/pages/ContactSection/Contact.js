@@ -11,7 +11,7 @@ function Contact() {
 
                 <Title 
                 className={styles.title__about}
-                titulo="Me envie uma mensagem!" />
+                titulo="Fale comigo!" />
 
 
             <div className={styles.capsula}>        
