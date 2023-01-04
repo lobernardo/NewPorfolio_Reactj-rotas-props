@@ -8,6 +8,13 @@
 
 }
 
+
+
+.pic_contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @keyframes myAnim {
 	0% {
 		opacity: 0;

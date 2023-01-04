@@ -1,7 +1,6 @@
 import styles from './Contact.module.css'
 import Title from '../../Layouts/TitleSection/Title'
-import Input from './Input'
-
+import FormContact from './FormContact'
 import contact_pic2 from '../../assets/contact_pic2.png'
 
 function Contact() {
@@ -17,13 +16,18 @@ function Contact() {
             <div className={styles.capsula}>        
             
             
-                    <div className={styles.pic_contact}>
+                <div className={styles.pic_contact}>
+                
+                            <div className={styles.form_container}>
 
-                    <Input />
+                               <FormContact />
 
-                    <img className={styles.contact_img} src={contact_pic2}/>
+                            </div>
+
+
+                            <img className={styles.contact_img} src={contact_pic2}/>
                     
-                    </div>
+                </div>
                 
 
 
