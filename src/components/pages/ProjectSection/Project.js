@@ -11,8 +11,11 @@ function Project(props) {
   
             <Title 
             titulo="Projetos" />
+            <p>Todos os deploys se encontram no Readme do projeto.</p>
+            
 
             <div className={styles.capsula}>
+                
 
             <Cardgit />
             

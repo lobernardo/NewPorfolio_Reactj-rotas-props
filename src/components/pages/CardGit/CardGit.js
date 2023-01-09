@@ -30,9 +30,11 @@ export default function CardGit(props) {
                         <h4>{repository.name}</h4>
                                         
                         <p>{repository.description}</p>
-                                        
+
+                    <div className='buttons_project'>        
                         <button className={styles.btn_pj}><a href= {repository.html_url} target='_blank'>Repositório</a></button>
-                                    
+                        
+                    </div>             
                                                         
                     </div>
             )

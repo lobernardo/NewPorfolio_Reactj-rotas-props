@@ -8,8 +8,7 @@
     border-radius: 30px;
     width: 1200px;
     overflow-y: auto;
-    
-    
+
 }
 
 .card__projects{
@@ -29,7 +28,8 @@
 
 .card__projects:hover{
     background-color: rgba(70, 85, 106, 0.618);
-    animation: myAnim_pj 1s cubic-bezier(0.11, 0, 0.5, 0) 0s 1 normal forwards;
+    transform: scale(1.06);
+    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -63,19 +63,6 @@
 
 
 
-@keyframes myAnim_pj {
-	0% {
-		transform: scale(1);
-	}
-
-	50% {
-		transform: scale(1.1);
-	}
-
-	100% {
-		transform: scale(1);
-	}
-}
 
 .card__projects h4{
     color: rgb(214, 214, 214);
