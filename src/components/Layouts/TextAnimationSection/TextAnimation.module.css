@@ -20,7 +20,7 @@
 
 
 .text_container h4 span{
-    color: rgb(12, 12, 12);
+    color:rgb(33, 56, 115);
     padding: 0.2rem;
     font-weight: bold;
     letter-spacing: 1px;
@@ -65,6 +65,7 @@
         justify-content: center;  
         align-items: center;  
         width: 310px;
+        margin-top: 4rem;
     }
     
     
@@ -84,7 +85,7 @@
     }
 
     .text_container h4 span{
-        color: rgb(43, 65, 204);
+        color:rgb(9, 38, 90);
         padding: 0.2rem;
         font-weight: 500;
         letter-spacing: 1px;

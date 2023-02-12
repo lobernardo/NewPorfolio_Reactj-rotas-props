@@ -1,0 +1,18 @@
+.mobile__btn{
+    width: 6rem;
+    margin: 1rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.mobile__btn:hover{
+    background-color: transparent;
+}
+
+.logo_menu_mobile{
+    width: 3.3rem;
+}

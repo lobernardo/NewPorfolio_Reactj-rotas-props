@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import new_logo_pf from '../../assets/new_logo_pf.png'
 import Container from '../ContainerSection/Container'
-
+import ButtonMobile from '../MenuMobile/ButtonMobile'
 import styles from './Navbar.module.css'
 
 function Navbar() {
@@ -35,6 +35,8 @@ function Navbar() {
                     </ul>
 
              </nav>
+
+             <div className={styles.section__mobile__logo_menu}> <ButtonMobile /></div>
 
              </section>
 
