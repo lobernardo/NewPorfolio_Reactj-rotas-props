@@ -1,7 +1,12 @@
 .img_container img{
-    width: 420px;
-    background-color: #222;
+    width: 320px;
+    background-image: url('https://wallpapercave.com/wp/wp1904065.png') ;
+	filter:contrast(1);
     border-radius: 200px;
+}
+
+.img_container{
+	margin-top: 3rem;
 }
 
 
@@ -61,10 +66,10 @@
 
     
     .img_container img{
-        width: 180px;
+        width: 260px;
         background-color: #222;
         border-radius: 200px;
-        margin-top: 1rem;
+        margin-top: 0rem;
         
     }
 }

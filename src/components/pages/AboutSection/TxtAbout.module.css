@@ -1,14 +1,16 @@
 .txt_about{
     width: 600px;
-   height: 403px;
+   height: 400px;
    overflow-y: auto;
-   background-color: rgb(58, 56, 56);
+   background-color: rgb(224, 215, 215);
    border-radius: 30px;
    display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     overflow-y: auto;
+    margin-left: 1rem;
+    
 }
 
 .txt_about p{
@@ -17,9 +19,11 @@
     margin-left: 1rem;
     text-align: start;
     font-weight: 400;
-    color: rgb(214, 214, 214);
+    color: rgb(12, 12, 12);
 
  }
+
+
 
  .txt_about p span{
     font-weight: bold;
@@ -31,19 +35,19 @@
    transform: scale(1.06);
    transition: 1s;
    cursor: pointer;
-   background-color: rgba(70, 85, 106, 0.618);
+   background-color: rgba(255, 255, 255, 0.618);
    border-radius: 30px;
-}
+ }
 
 
 
 @media screen and (min-width: 320px) and (max-width:900px){
 
    .txt_about{
-      width: 100%;
+      width: 265px;
       height: 230px;
       overflow-y: auto;
-      background-color: rgb(58, 56, 56);
+      background-color: rgb(188, 185, 185);
       border-radius: 30px;
   }
 

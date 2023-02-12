@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     height: 10vh;
-    background-color: #222;
+    background-color: #eeeeee;
     justify-content: space-evenly;
 
 
@@ -26,15 +26,16 @@
 
 .item{
     margin-right: 1.3rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border: none;
+    list-style: none;
     
 }
 
 .item a{
     text-decoration: none;
     list-style: none;
-    color:rgb(218, 208, 208);
+    color:rgb(49, 46, 46);
     letter-spacing: 1px;
     
     
@@ -43,7 +44,11 @@
 .item a:hover{
     transition: 0.4s;
     border: none;
-    color:rgb(47, 103, 188);
+    color:rgb(15, 20, 57);
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.186);
+    border-radius: 20px;
+    text-decoration:overline;
 
 }
 
@@ -61,7 +66,7 @@
 }
 
 .logo_leo{
-    width: 80px;
+    width: 6rem;
 }
 
 

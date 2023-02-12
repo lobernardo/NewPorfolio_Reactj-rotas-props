@@ -2,14 +2,14 @@ import 'animate.css';
 
 import styles from './PicHome.module.css'
 
-import avatarhome from '../../assets/avatarhome.png'
+import leoperfilhome from '../../assets/leoperfilhome.png'
 
 
 function PicHome() {
     return(
 
         <div className={styles.img_container}>
-        <img src={avatarhome}/>
+         <img className={styles.back_img} src={leoperfilhome}/>
         </div>
                     
         

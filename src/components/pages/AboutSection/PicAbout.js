@@ -1,5 +1,5 @@
 import styles from './PicAbout.module.css'
-import lbernardo from '../../assets/lbernardo.png'
+import homeh from '../../assets/homeh.png'
 
 
 
@@ -11,7 +11,7 @@ function PicAbout() {
 
                 <div className={styles.pic_about}>
 
-                <img className={styles.back_img} src={lbernardo}/>
+                <img className={styles.back_img} src={homeh}/>
                          
                 </div>
 

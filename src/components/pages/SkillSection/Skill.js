@@ -17,7 +17,9 @@ function Skill() {
         <section className={styles.skill_container}>
 
         <Title 
-                titulo="Conhecimentos" />
+                titulo="Conhecimentos" 
+                subtitle="Clique nos cards para ver as certificações" />
+                
 
 
         <div className={styles.capsula}>

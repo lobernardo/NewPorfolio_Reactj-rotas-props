@@ -10,9 +10,8 @@ function Project(props) {
         <section className={styles.project__container}>
   
             <Title 
-            titulo="Projetos" />
-            <p>Todos os deploys se encontram no Readme do projeto.</p>
-            
+            titulo="Projetos" 
+            subtitle="Todos os deploys se encontram no Readme do projeto" />
 
             <div className={styles.capsula}>
                 

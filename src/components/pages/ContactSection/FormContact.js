@@ -1,12 +1,17 @@
 import styles from './FormContact.module.css'
 
 import SubmitButton from '../ContactSection/SubmitButton'
+import Title from '../../Layouts/TitleSection/Title'
 
 function FormContact() {
 
     return(
 
         <div className={styles.form_container}>
+
+                <Title 
+                className={styles.title__form}
+                titulo="Me envie uma mensagem!" />
             
 
                     <input 

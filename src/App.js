@@ -4,7 +4,7 @@ import About from './components/pages/AboutSection/About'
 import Skill from './components/pages/SkillSection/Skill'
 import Project from './components/pages/ProjectSection/Project'
 import Navbar from './components/Layouts//NavbarSection/Navbar'
-import Footer from './components/Layouts/FooterSection/Footer'
+
 import Contact from './components/pages/ContactSection/Contact'
 
 import Container from './components/Layouts/ContainerSection/Container'
@@ -41,8 +41,6 @@ function App() {
 
         </Container>
 
-
-      <Footer />
 
     </Router>
   );

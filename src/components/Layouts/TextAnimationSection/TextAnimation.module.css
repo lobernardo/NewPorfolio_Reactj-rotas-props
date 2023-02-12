@@ -1,28 +1,4 @@
-.btn_cv{
-    width: 7.5rem;
-    height: 2rem;
-    border-radius: 200px;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    background-color: rgb(33, 70, 155);
-    color:rgb(7, 13, 38);
-    border: none;
-}
 
-.text_container .btn_cv a{
-    color: rgb(212, 213, 216);
-    text-decoration: none;
-    list-style: none;
-}
-
-.text_container .btn_cv a:hover{
-    color:rgb(18, 18, 18);
-    text-decoration: none;
-    list-style: none;
-    cursor: pointer;
-    font-weight: bold;
-}
 
 
 .text_container{
@@ -30,7 +6,7 @@
     flex-direction: column;
     justify-content: center;  
     align-items: center;  
-    width: 410px;
+    width: 430px;
 }
 
 
@@ -38,27 +14,28 @@
     font-size: 3rem;
     letter-spacing: 1px;
     margin-bottom: 1rem;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
 
 .text_container h4 span{
-    color: rgb(43, 65, 204);
+    color: rgb(12, 12, 12);
     padding: 0.2rem;
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: 1px;
     border: 50px;
+    text-decoration: overline;
 }
 
 
 .text_container h4{
-    color: white;
+    color: rgb(7, 7, 7);
     letter-spacing: 2px;
     font-size:2rem;
     margin-bottom: 2rem;
     display: inline-block;
-    border-right: 3px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(0, 0, 0);
     padding-right: 3px;
     max-width:0;
     white-space: nowrap;

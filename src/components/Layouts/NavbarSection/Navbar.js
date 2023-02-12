@@ -1,6 +1,5 @@
 import {Link} from 'react-router-dom'
-import logoleo from '../../assets/logoleo.png'
-import { FaWhatsappSquare } from "react-icons/fa";
+import new_logo_pf from '../../assets/new_logo_pf.png'
 import Container from '../ContainerSection/Container'
 
 import styles from './Navbar.module.css'
@@ -10,9 +9,10 @@ function Navbar() {
         
 
             <Container>
+                
                 <section className={styles.menu_section} id='menu'>
                   
-                <Link to='/'><img className={styles.logo_leo} src={logoleo}/></Link>
+                <Link to='/'><img className={styles.logo_leo} src={new_logo_pf}/></Link>
 
                 <nav className={styles.navbar}>
                     
@@ -30,8 +30,6 @@ function Navbar() {
 
                           <li className={styles.item}><Link to='/contact'>Contato</Link></li>
                           
-
-                          <li className={styles.item_wpp}><a href='https://wa.me/+5521991575613' target= '_blank'><FaWhatsappSquare alt="whatsapp" /></a></li>
                       
 
                     </ul>

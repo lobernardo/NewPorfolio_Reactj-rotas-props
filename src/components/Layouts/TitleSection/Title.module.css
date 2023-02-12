@@ -1,20 +1,19 @@
 
-    .title__page{
-        width: 40rem;
-        height: 1rem;
-        text-align: center;
-        background-color: #222;
-        border-radius: 200px;
-        text-align: center;
-        letter-spacing: 2px;
-    }
 
     .title__page h3{
         font-size: 2rem;
-        color: rgb(47, 103, 188);
+        color: rgb(43, 44, 45);
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
+    .title__page p{
+        font-size: 0.7rem;
+        color: rgb(43, 44, 45);
         text-align: center;
     }
 
+    
 
 
     
@@ -23,7 +22,6 @@
 
   
     .title__page{
-        background-color: #222;
         border-radius: 200px;
         text-align: center;
         letter-spacing: 2px;
@@ -31,8 +29,8 @@
     }
 
     .title__page h3{
-        font-size: 1rem;
-        color: rgb(47, 103, 188);
+        font-size: 1.2rem;
+        color: rgb(32, 33, 34);
         text-align: center;
     }
 }

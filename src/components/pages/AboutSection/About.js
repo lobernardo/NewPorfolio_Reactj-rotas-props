@@ -15,7 +15,6 @@ function About() {
         <section className={styles.about__container}>
 
             <Title 
-            className={styles.title__about}
             titulo="Sobre" />
 
             <div className={styles.capsula}>

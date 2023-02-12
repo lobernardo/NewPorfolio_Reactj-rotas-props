@@ -4,6 +4,10 @@
     cursor: pointer;
 }
 
+.pic_about{
+    margin-right: 1rem;
+}
+
 .pic_about img{
     width: 400px;
     height: 400px;
