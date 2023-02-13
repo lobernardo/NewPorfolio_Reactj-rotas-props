@@ -8,7 +8,8 @@
 }
 
 .logo_menu_mobile{
-    width: 3rem;
+    width: 2rem;
+    margin-right: 1.5rem;
 }
 
 @media (min-width: 320px) and (max-width: 600px) {

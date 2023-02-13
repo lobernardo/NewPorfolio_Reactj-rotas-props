@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import MenuMobile from './MenuMobile';
 import styles from './ButtonMobile.module.css'
-import menu_mob_dois from '../../assets/menu_mob_dois.png'
+
+import mobbco from '../../assets/mobbco.png'
 
 
 const ButtonMobile = () => {
@@ -10,7 +11,7 @@ const ButtonMobile = () => {
   return (
     <header>
       <button className={styles.mobile__btn} 
-      onMouseOver={() => setOpen(!isOpen)}> <img className={styles.logo_menu_mobile} src={menu_mob_dois}/></button> 
+      onMouseOver={() => setOpen(!isOpen)}> <img className={styles.logo_menu_mobile} src={mobbco}/></button> 
      {isOpen && <MenuMobile />} 
      
 
