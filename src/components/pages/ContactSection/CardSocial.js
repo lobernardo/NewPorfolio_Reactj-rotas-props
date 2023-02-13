@@ -28,7 +28,7 @@ function CardSocial() {
 
                 </div>
 
-                <div className={styles.cards_social}>
+                <div className={styles.cards_social_final}>
                     <h4>Telefone</h4>
                     <ul>
                     <li className={styles.wpp_contact}><a href='https://wa.me/5521991575613' target= '_blank'><FaWhatsappSquare /></a>21 99157-5613</li>

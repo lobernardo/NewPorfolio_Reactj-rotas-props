@@ -2,15 +2,17 @@
 
     .title__page h3{
         font-size: 2rem;
-        color:rgb(33, 56, 115);
+        color:rgb(199, 200, 199);
+        font-weight: bold;
         text-align: center;
-        letter-spacing: 3px;
+        letter-spacing: 4px;
     }
 
     .title__page p{
         font-size: 0.7rem;
-        color:rgb(33, 56, 115);
+        color:rgb(199, 200, 199);
         text-align: center;
+        letter-spacing: 2px;
     }
 
     
@@ -30,7 +32,12 @@
 
     .title__page h3{
         font-size: 1.2rem;
-        color: rgb(32, 33, 34);
+        color:rgb(192, 197, 194);
+        text-align: center;
+    }
+
+    .title__page p{
+        color:rgb(192, 197, 194);
         text-align: center;
     }
 }

@@ -1,19 +1,18 @@
 
 .menu_section{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     height: 10vh;
-    background-color: #eeeeee;
+    background-color: #373636;
     justify-content: space-evenly;
-
+    box-shadow: 0px 3px 16px 0px #000;
 
 }
 
 .navbar{
     display: flex;
     margin-top: 0.5rem;
-  
 }
 
 .list{
@@ -35,7 +34,7 @@
 .item a{
     text-decoration: none;
     list-style: none;
-    color:rgb(49, 46, 46);
+    color:rgb(230, 225, 225);
     letter-spacing: 1px;
     
     
@@ -44,9 +43,9 @@
 .item a:hover{
     transition: 0.4s;
     border: none;
-    color:rgb(33, 56, 115);
+    color:rgb(217, 218, 222);
     font-size: 1.1rem;
-    background-color: rgba(0, 0, 0, 0.186);
+    background-color: rgba(118, 113, 113, 0.561);
     border-radius: 20px;
     text-decoration:overline;
 
@@ -66,7 +65,7 @@
 }
 
 .logo_leo{
-    width: 6rem;
+    width: 5rem;
 }
 
 .section__mobile__logo_menu{
@@ -89,7 +88,6 @@
           display: block;
           position: absolute;
           top: 45px;
-          background-color: white;
           padding: 20px;
           box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
           width: 45%;
@@ -104,18 +102,18 @@
       .section__mobile__logo_menu{
         display: contents;
         border: none;
+
       }
     
-      .menu__section{
-        display: flex;
+      .menu_section{
         width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+        box-shadow: none;
       }
 
-      .menu__section:hover{
-        background-color: transparent;
-        cursor: pointer;
-        transition: 0.4s;
-    }
 
 
 }

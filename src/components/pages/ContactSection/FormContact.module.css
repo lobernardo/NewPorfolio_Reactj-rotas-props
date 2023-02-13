@@ -9,20 +9,20 @@
 }
 
 .input_sec{
-    background-color: rgba(70, 70, 72, 0.879);
+    background-color: rgb(141, 194, 161);
     margin: 0.4rem;
     border-radius:5px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    color:rgb(255, 255, 255);
+    color:rgb(45, 45, 45);
     border: none;
 }
 
 .input_sec::placeholder{
     padding-left: 0.4rem;
     font-size: 0.9rem;
-    color:rgba(255, 255, 255, 0.591);
+    color:rgba(49, 47, 47, 0.911);
 }
 
 .input_sec placeholder{

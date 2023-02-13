@@ -1,11 +1,5 @@
 .mobile__btn{
-    width: 6rem;
-    margin: 1rem;
     border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
 }
 
 
@@ -14,5 +8,14 @@
 }
 
 .logo_menu_mobile{
-    width: 3.3rem;
+    width: 3rem;
 }
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+    .mobile__btn{
+        background-color:transparent;
+        cursor: pointer;
+    }
+
+   }

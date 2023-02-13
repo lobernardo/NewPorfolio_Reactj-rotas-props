@@ -5,14 +5,15 @@
     text-align: center;
     text-decoration: none;
     list-style: none;
-    background-color: rgb(41, 41, 42);
-    color:rgb(184, 185, 187);
+    background-color: rgba(146, 146, 150, 0.579);
+    color:rgb(37, 37, 38);
+    font-weight: bold;
     border: none;
     cursor: pointer;
     margin: 0.4rem;
 }
 
 button:hover{
-    color:white;
-    background-color: grey;
+    color:rgb(12, 89, 42);
+    background-color: rgb(231, 224, 224);
 }

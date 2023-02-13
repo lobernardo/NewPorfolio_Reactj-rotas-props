@@ -1,16 +1,17 @@
 .img_container img{
-    width: 320px;
+    width: 340px;
     background-image: url('https://wallpapercave.com/wp/wp1904065.png') ;
 	filter:contrast(1);
     border-radius: 200px;
 }
 
 .img_container{
-	margin-top: 3rem;
+	
 }
 
 
 .img_container img{
+	margin-top: 5rem;
     animation: myAnim 2.5s ease-in-out 0s 1 normal forwards;
 }
 

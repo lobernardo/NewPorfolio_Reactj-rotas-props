@@ -9,8 +9,11 @@ const ButtonMobile = () => {
 
   return (
     <header>
-      <button className={styles.mobile__btn} onClick={() => setOpen(!isOpen)}><img className={styles.logo_menu_mobile} src={menu_mob_dois}/></button>
-      {isOpen && <MenuMobile />}
+      <button className={styles.mobile__btn} 
+      onMouseOver={() => setOpen(!isOpen)}> <img className={styles.logo_menu_mobile} src={menu_mob_dois}/></button> 
+     {isOpen && <MenuMobile />} 
+     
+
     </header>
   );
 };

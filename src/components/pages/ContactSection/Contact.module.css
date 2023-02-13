@@ -1,5 +1,5 @@
 .contact_container{
-    width: 1200px;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,7 +10,7 @@
 
 
 .form_container{
-    width: 1200px;
+    width: 90vw;
     height: 70vh;
     display: flex;
     flex-direction: row;
@@ -71,16 +71,18 @@
         justify-content: space-between;
         align-items: center;
         border-radius: 30px;
+        width:80vw;
     }
 
     .contact_container{
-        width: 100%;
+        
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        animation: myAnim 1.5s ease 0s 1 normal forwards; 
-    
+        justify-content: flex-start;
+        align-items: start;
+        border-radius: 30px;
+        text-align: center; 
+        margin-top: 2rem;
     }
     
  

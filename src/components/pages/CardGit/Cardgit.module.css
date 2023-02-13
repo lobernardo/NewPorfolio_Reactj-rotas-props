@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    background-color: rgb(160, 153, 153);
+    background-color: #373636;
     border-radius: 30px;
     width: 1200px;
     overflow-y: auto;
@@ -13,14 +13,14 @@
 }
 
 .card__projects{
-    background-color: #222;
+    background-color: rgb(197, 199, 198);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 30px;
-    width: 50%;
-    height: 170px;
+    width: 40%;
+    height: 180px;
     text-align: center;
     margin:1rem;
     padding: 2rem;
@@ -28,7 +28,7 @@
 }
 
 .card__projects:hover{
-    background-color: rgba(16, 16, 16, 0.618);
+    background-color: rgb(141, 194, 161);
     transform: scale(1.06);
     transition: 0.5s;
     cursor: pointer;
@@ -44,6 +44,8 @@
     color:rgb(7, 13, 38);
     border: none;
 }
+
+
 
 .btn_pj a{
     color: rgb(212, 213, 216);
@@ -65,11 +67,12 @@
 
 
 .card__projects h4{
-    color: rgb(214, 214, 214);
+    color: rgb(33, 33, 33);
 }
 
 .card__projects p{
-    color: rgb(214, 214, 214);
+    color: rgb(33, 33, 33);
+    letter-spacing: 1px;
 }
 
 

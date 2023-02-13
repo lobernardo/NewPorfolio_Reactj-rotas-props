@@ -1,8 +1,9 @@
 import styles from './Contact.module.css'
 import Title from '../../Layouts/TitleSection/Title'
 import FormContact from './FormContact'
-import contact_pic2 from '../../assets/contact_pic2.png'
+
 import CardSocial from './CardSocial'
+
 
 function Contact() {
     return(
@@ -23,6 +24,7 @@ function Contact() {
                                <CardSocial />
 
                             </div>
+            
 
                     
                 </div>
