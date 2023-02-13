@@ -30,7 +30,7 @@
 
 
 
-@media screen and (min-width: 320px) and (max-width:900px){
+@media screen and (min-width: 320px) and (max-width: 900px){
 
     .about__container{
         width:80vw;
@@ -50,6 +50,7 @@
   		width: 380px;
   		height: 430px;
 		justify-content: center;
+        align-items: center;
 
     }
 }

@@ -16,19 +16,14 @@
     box-shadow: 0px 10px 18px 0px #7471718d;
 }
 
-
-@media screen and (min-width: 320px) and (max-width:900px){
+@media screen and (min-width: 320px) and (max-width: 900px){
 
     .pic_about img{
-        width: 250px;
-        height: 210px;
-        border-radius: 30px;
-        filter: contrast(1.15);
-        box-shadow: 0px 10px 18px 0px #0b0b0b8d;
+   display: none;
     }
 
     .pic_about{
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
     }
 
 }

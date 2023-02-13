@@ -11,7 +11,10 @@ const ButtonMobile = () => {
   return (
     <header>
       <button className={styles.mobile__btn} 
-      onMouseOver={() => setOpen(!isOpen)}> <img className={styles.logo_menu_mobile} src={mobbco}/></button> 
+      onMouseOver={() => setOpen(!isOpen)}> <img className={styles.logo_menu_mobile} src={mobbco}/>
+      </button>
+       
+
      {isOpen && <MenuMobile />} 
      
 

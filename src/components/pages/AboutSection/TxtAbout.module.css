@@ -43,14 +43,22 @@
 
 
 
-@media screen and (min-width: 320px) and (max-width:900px){
+ @media screen and (min-width: 320px) and (max-width: 900px){
 
    .txt_about{
-      width: 67vw;
-      height: 260px;
-      overflow-y: auto;
-      background-color: rgb(188, 185, 185);
-      border-radius: 30px;
+    width: 310px;
+    height: 380px;
+    border-radius: 30px;
+    filter: contrast(1.15);
+    box-shadow: 0px 10px 18px 0px #0b0b0b8d;
+    overflow-y: auto;
+    background-color: rgb(188, 185, 185);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
   }
 
 }

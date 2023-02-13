@@ -39,7 +39,7 @@
     transition: 0.5s;
 }
 
-@media (min-width: 320px) and (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 560px) {
 
     .mobile_menu{
         width: 50%;
