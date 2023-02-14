@@ -10,7 +10,7 @@ function TextAnimation() {
 
             <div className={styles.text_container} >
                     <h1 className='txt_title'>Leo Bernardo</h1>
-                    <h4 className='animated_txt'>Desenvolvedor <span>Front-End</span></h4>
+                    <h4 className='animated_txt'><span>Full Stack</span> Developer</h4>
                 
             </div>
                     
