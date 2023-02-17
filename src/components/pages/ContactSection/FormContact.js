@@ -1,6 +1,5 @@
 import styles from './FormContact.module.css'
-
-import SubmitButton from '../ContactSection/SubmitButton'
+import Button from '../../Layouts/ButtonSection/Button'
 import Title from '../../Layouts/TitleSection/Title'
 
 function FormContact() {
@@ -32,9 +31,9 @@ function FormContact() {
 
                 <textarea className={styles.input_sec} name="Textarea" placeholder="Digite aqui a sua mensagem" cols="50" rows="8" minlength="3" maxlength="500" required></textarea>
 
-            <SubmitButton 
-            className={styles.btn_ctt}
-            text="Enviar"
+            <Button 
+            name="Enviar"
+            caminho=""
             />
 
 

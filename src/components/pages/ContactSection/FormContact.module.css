@@ -1,5 +1,10 @@
 
-
+.form_container Button{
+    width: 8rem;
+    margin-left: 0.3rem;
+    margin-top: 0.4rem;
+    background-color: rgb(141, 194, 161);
+}
 
 .form_container{
     display: flex;

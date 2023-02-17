@@ -1,6 +1,7 @@
 
 import styles from './Cardgit.module.css'
 import {useEffect, useState} from 'react';
+import Button from '../../Layouts/ButtonSection/Button'
 
 
 
@@ -31,10 +32,19 @@ export default function CardGit(props) {
                                         
                         <p>{repository.description}</p>
 
-                    <div className='buttons_project'>        
-                        <button className={styles.btn_pj}><a href= {repository.html_url} target='_blank'>Repositório</a></button>
-                        
-                    </div>             
+                <div  className={styles.btn__cardgit__container}>
+
+                    <Button 
+                    name="Repositório"
+                    caminho="" 
+                     />   
+
+                    <Button 
+                    name="Prévia"  
+                    caminho=""    
+                    />
+                    
+                </div>
                                                         
                     </div>
             )
