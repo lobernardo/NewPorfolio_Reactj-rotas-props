@@ -8,8 +8,8 @@ function Button(props) {
   return(
     
       <div className={styles.button__conteiner}>
-        <button className={styles.button__geral}>{props.name}</button>
-        <a>{props.caminho}</a>
+        <a href={props.caminho} target='_blank'><button className={styles.button__geral}>{props.name}</button>
+        </a>
       </div>
   )
 }
