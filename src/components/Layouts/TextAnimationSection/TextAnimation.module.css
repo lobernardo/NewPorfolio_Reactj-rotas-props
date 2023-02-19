@@ -43,6 +43,10 @@
     animation: pisca normal infinite .8s, escrever normal 5s steps(55) both;
 }
 
+.text_container Button{
+    background-color: rgb(141, 194, 161);
+}
+
 @keyframes pisca{
     100%{
         border-right-color: transparent;

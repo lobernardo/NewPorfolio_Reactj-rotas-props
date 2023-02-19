@@ -16,7 +16,7 @@ function TextAnimation() {
 
                     <Button 
                         name="Download CV"
-                        caminho="../../assets/curric_dev.pdf"
+                        caminho={curric_dev}
                     />
                 
             </div>

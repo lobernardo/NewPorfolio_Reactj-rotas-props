@@ -103,7 +103,7 @@ function CardSkills(props) {
 
         <div className={styles.card_skills}>
 
-                <a href="https://hermes.digitalinnovation.one/certificates/D3F3549C.pdf" target="_blank"><SkillsProp 
+                <a href="" target="_blank"><SkillsProp 
                 imageskill={git}
                 titulo="Git e GitHub"
 

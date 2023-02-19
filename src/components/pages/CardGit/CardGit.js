@@ -36,13 +36,10 @@ export default function CardGit(props) {
 
                     <Button 
                     name="Repositório"
-                    caminho="" 
+                    caminho={repository.html_url}
                      />   
 
-                    <Button 
-                    name="Prévia"  
-                    caminho=""    
-                    />
+                 
                     
                 </div>
                                                         
